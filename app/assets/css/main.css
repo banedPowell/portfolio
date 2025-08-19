@@ -1,0 +1,20 @@
+@import 'tailwindcss';
+@import '@nuxt/ui';
+
+@theme static {
+	--font-sans: 'Space Grotesk', sans-serif;
+	--font-display: 'Poppins', sans-serif;
+	--font-mono: 'Space Mono', monospace;
+
+	--color-dark-50: #343434;
+	--color-dark-100: #2f2f2f;
+	--color-dark-200: #2a2a2a;
+	--color-dark-300: #272727;
+	--color-dark-400: #232323;
+	--color-dark-500: #212121;
+	--color-dark-600: #1a1a1a;
+	--color-dark-700: #181818;
+	--color-dark-800: #131313;
+	--color-dark-900: #070707;
+	--color-dark-950: #000000;
+}
