@@ -1,19 +1,13 @@
-<script lang="ts" setup>
-	import type { FooterItem } from './FooterItem.vue';
-
-	const props = defineProps<{
-		title: string;
-
-		items: Array<FooterItem>;
-	}>();
-</script>
+<script lang="ts" setup></script>
 
 <template>
-	<ul class="flex flex-col items-start justify-start gap-1">
+	<ul class="FOOTERSECTION flex flex-col items-start justify-start gap-1">
 		<li>
-			<h4 class="mb-1.5 font-black">{{ title }}</h4>
+			<h4 class="mb-1.5 font-black">
+				<slot name="title" />
+			</h4>
 		</li>
 
-		<FooterItem v-for="item in items" :item="item" :key="item.text" />
+		<slot name="items" />
 	</ul>
 </template>

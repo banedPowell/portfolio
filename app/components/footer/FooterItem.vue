@@ -6,22 +6,23 @@
 		target?: '_self' | '_blank' | '_parent' | '_top';
 	}
 
-	const props = defineProps<{ item: FooterItem }>();
+	const props = defineProps<FooterItem>();
 </script>
 
 <template>
-	<li v-if="item.link">
+	<li v-if="link">
 		<NuxtLink
-			:to="item.link"
+			:to="link"
+			:target="target"
 			class="flex items-center gap-2 transition-colors hover:text-gray-300"
 		>
-			<Icon v-if="item.icon" :name="item.icon" />
-			{{ item.text }}
+			<Icon v-if="icon" :name="icon" />
+			{{ text }}
 		</NuxtLink>
 	</li>
 
 	<li v-else class="flex items-center gap-2">
-		<Icon v-if="item.icon" :name="item.icon" />
-		{{ item.text }}
+		<Icon v-if="icon" :name="icon" />
+		{{ text }}
 	</li>
 </template>

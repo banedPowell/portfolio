@@ -28,11 +28,10 @@
 		</main>
 
 		<FooterComponent>
-			<FooterSection
-				v-for="section in footer?.sections ?? []"
-				:title="section.title"
-				:items="section.items"
-				:key="section.title"
+			<ContentRenderer
+				v-if="footer"
+				:value="footer"
+				class="flex w-full flex-col gap-20 text-sm sm:flex-row"
 			/>
 		</FooterComponent>
 	</div>

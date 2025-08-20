@@ -10,20 +10,6 @@ export default defineContentConfig({
 		layout: defineCollection({
 			type: 'page',
 			source: 'layout/*.md',
-			schema: z.object({
-				sections: z.array(
-					z.object({
-						title: z.string(),
-						items: z.array(
-							z.object({
-								text: z.string(),
-								icon: z.string().optional(),
-								link: z.string().optional(),
-							}),
-						),
-					}),
-				),
-			}),
 		}),
 	},
 });
