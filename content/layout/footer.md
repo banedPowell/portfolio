@@ -62,14 +62,3 @@ Dans ce projet
   ---
   :::
 ::
-
-<!-- ::FooterSection
-#title
-Dans ce projet
-
-#items
-
-
-
-
-:: -->
