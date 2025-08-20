@@ -13,6 +13,16 @@ export default defineNuxtConfig({
 
 	css: ['~/assets/css/main.css'],
 
+	hooks: {
+		'components:extend': (components) => {
+			const globals = components.filter((c) =>
+				['UButton', 'UIcon'].includes(c.pascalName),
+			);
+
+			globals.forEach((c) => (c.global = true));
+		},
+	},
+
 	modules: [
 		'@nuxt/content',
 		'@nuxt/ui',
@@ -20,4 +30,35 @@ export default defineNuxtConfig({
 		'@vueuse/nuxt',
 		'@nuxt/image',
 	],
+
+	content: {
+		build: {
+			markdown: {
+				toc: {
+					depth: 5,
+				},
+			},
+		},
+
+		renderer: {
+			anchorLinks: {
+				h1: true,
+				h2: true,
+				h3: true,
+				h4: true,
+				h5: true,
+				h6: true,
+			},
+		},
+
+		watch: {
+			enabled: true,
+			port: 4000,
+			showURL: true,
+		},
+
+		preview: {
+			api: 'https://api.nuxt.studio',
+		},
+	},
 });
