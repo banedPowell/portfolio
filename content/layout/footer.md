@@ -1,67 +1,67 @@
-::FooterSection
+::footer-section
 #title
 Me contacter
 
 #items
-::FooterItem
----
-text: 'banedPowell'
-icon: 'ion:logo-github'
-link: 'https://github.com/banedPowell'
-target: '_blank'
----
-::
-::FooterItem
----
-text: 'contact@baned.me'
-icon: 'lucide:mail'
-link: 'mailto:contact@baned.me'
----
-::
+  :::footer-item
+  ---
+  icon: ion:logo-github
+  link: https://github.com/banedPowell
+  target: _blank
+  text: banedPowell
+  ---
+  :::
+
+  :::footer-item
+  ---
+  icon: lucide:mail
+  link: mailto:contact@baned.me
+  text: contact@baned.me
+  ---
+  :::
 ::
 
-::FooterSection
+::footer-section
 #title
 Dans ce projet
 
 #items
-::FooterItem
----
-text: 'Nuxt 4'
-icon: 'vscode-icons:file-type-nuxt'
-link: 'https://nuxt.com'
----
-::
-::FooterItem
----
-text: 'Nuxt Content'
-icon: 'simple-icons:nuxtdotjs'
-link: 'https://content.nuxt.com'
----
-::
-::FooterItem
----
-text: 'Nuxt Security'
-icon: 'simple-icons:nuxtdotjs'
-link: 'https://nuxt-security.vercel.app/'
----
-::
-::FooterItem
----
-text: 'TypeScript'
-icon: 'devicon-plain:typescript'
----
-::
-::FooterItem
----
-text: 'Repo github'
-icon: 'ion:logo-github'
-link: 'https://github.com/banedPowell/portfolio/'
-target: '_blank'
----
-::
-::
+  :::footer-item
+  ---
+  icon: vscode-icons:file-type-nuxt
+  link: https://nuxt.com
+  text: Nuxt 4
+  ---
+  :::
 
+  :::footer-item
+  ---
+  icon: simple-icons:nuxtdotjs
+  link: https://content.nuxt.com
+  text: Nuxt Content
+  ---
+  :::
+
+  :::footer-item
+  ---
+  icon: simple-icons:nuxtdotjs
+  link: https://nuxt-security.vercel.app/
+  text: Nuxt Security
+  ---
+  :::
+
+  :::footer-item{icon="devicon-plain:typescript" text="TypeScript"}
+  :::
+
+  :::footer-item
+  ---
+  icon: ion:logo-github
+  link: https://github.com/banedPowell/portfolio/
+  target: _blank
+  text: Repo github
+  ---
+  :::
+::
 
 <!-- ::FooterSection
 #title
