@@ -102,6 +102,7 @@
 				<PillItem
 					v-for="tech in techStack"
 					:pill="tech"
+					:tech="true"
 					:key="tech.content"
 				/>
 			</ul>

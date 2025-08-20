@@ -6,7 +6,7 @@
 		target?: '_self' | '_blank' | '_parent' | '_top';
 	}
 
-	const props = defineProps<{ pill: PillItem }>();
+	const props = defineProps<{ pill: PillItem; tech?: boolean }>();
 </script>
 
 <template>
@@ -22,7 +22,9 @@
 				<Icon :name="pill.icon" size="32px" class="text-gray-300" />
 			</div>
 
-			<p class="text-gray-500">{{ pill.content }}</p>
+			<p class="text-gray-500" :class="tech ? 'font-mono' : 'font-sans'">
+				{{ pill.content }}
+			</p>
 		</NuxtLink>
 	</li>
 
@@ -37,6 +39,8 @@
 			<Icon :name="pill.icon" size="32px" class="text-gray-300" />
 		</div>
 
-		<p class="text-gray-500">{{ pill.content }}</p>
+		<p class="text-gray-500" :class="tech ? 'font-mono' : 'font-sans'">
+			{{ pill.content }}
+		</p>
 	</li>
 </template>
