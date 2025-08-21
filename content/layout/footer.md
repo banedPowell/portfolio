@@ -12,7 +12,7 @@ Me contacter
   banedPowell
   :::
 
-  :::footer-item{icon="lucide:mail" link="mailto:contact@baned.me"}
+  :::footer-item{icon="lucide:mail"}
   <contact@baned.me>
   :::
 ::
