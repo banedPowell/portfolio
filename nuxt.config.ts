@@ -26,7 +26,7 @@ export default defineNuxtConfig({
 	modules: [
 		'@nuxt/content',
 		'@nuxt/ui',
-		'nuxt-security',
+		// 'nuxt-security',
 		'@vueuse/nuxt',
 		'@nuxt/image',
 	],
