@@ -50,15 +50,11 @@ Dans ce projet
   ---
   :::
 
-  :::footer-item{icon="devicon-plain:typescript" text="TypeScript"}
+  :::footer-item{icon="devicon-plain:typescript"}
+  Typescript
   :::
 
-  :::footer-item
-  ---
-  icon: ion:logo-github
-  link: https://github.com/banedPowell/portfolio/
-  target: _blank
-  text: Repo github
-  ---
+  :::footer-item{icon="ion:logo-github" link="https://github.com/banedPowell/portfolio/" target="_blank"}
+  Repo github
   :::
 ::
