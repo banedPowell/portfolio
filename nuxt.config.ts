@@ -51,14 +51,9 @@ export default defineNuxtConfig({
 			},
 		},
 
-		watch: {
-			enabled: true,
-			port: 4000,
-			showURL: true,
-		},
-
 		preview: {
 			api: 'https://api.nuxt.studio',
+			dev: true,
 		},
 	},
 });
