@@ -8,11 +8,8 @@ export default defineContentConfig({
 		}),
 
 		layout: defineCollection({
-			type: 'data',
+			type: 'page',
 			source: 'layout/*.md',
-			schema: z.object({
-				layoutComponentType: z.enum(['header', 'footer']),
-			}),
 		}),
 	},
 });
