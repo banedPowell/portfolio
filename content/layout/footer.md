@@ -3,7 +3,7 @@
 Me contacter
 
 #items
-  :::footer-item
+  :::layout-item
   ---
   icon: ion:logo-github
   link: https://github.com/banedPowell
@@ -12,7 +12,7 @@ Me contacter
   banedPowell
   :::
 
-  :::footer-item{icon="lucide:mail"}
+  :::layout-item{icon="lucide:mail"}
   <contact@baned.me>
   :::
 ::
@@ -22,15 +22,15 @@ Me contacter
 Dans ce projet
 
 #items
-  :::footer-item{icon="vscode-icons:file-type-nuxt" link="https://nuxt.com"}
+  :::layout-item{icon="vscode-icons:file-type-nuxt" link="https://nuxt.com"}
   Nuxt 4
   :::
 
-  :::footer-item{icon="simple-icons:nuxtdotjs" link="https://content.nuxt.com"}
+  :::layout-item{icon="simple-icons:nuxtdotjs" link="https://content.nuxt.com"}
   Nuxt Content
   :::
 
-  :::footer-item
+  :::layout-item
   ---
   icon: simple-icons:nuxtdotjs
   link: https://nuxt-security.vercel.app/
@@ -38,11 +38,11 @@ Dans ce projet
   Nuxt Security
   :::
 
-  :::footer-item{icon="devicon-plain:typescript"}
+  :::layout-item{icon="devicon-plain:typescript"}
   Typescript
   :::
 
-  :::footer-item
+  :::layout-item
   ---
   icon: ion:logo-github
   link: https://github.com/banedPowell/portfolio/

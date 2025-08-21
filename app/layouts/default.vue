@@ -1,4 +1,8 @@
 <script lang="ts" setup>
+	const { data: header } = await useAsyncData('header', () => {
+		return queryCollection('layout').path('/layout/header').first();
+	});
+
 	const { data: footer } = await useAsyncData('footer', () => {
 		return queryCollection('layout').path('/layout/footer').first();
 	});
@@ -6,20 +10,13 @@
 
 <template>
 	<div class="flex flex-col items-center gap-20">
-		<header
-			class="sticky top-0 hidden h-fit w-full max-w-5xl items-center justify-between p-5 md:flex"
-		>
-			<NuxtLink to="/" class="transition-colors hover:text-gray-300">
-				baned.me
-			</NuxtLink>
-
-			<NuxtLink
-				to="mailto:contact@baned.me"
-				class="transition-colors hover:text-gray-300"
-			>
-				Me contacter
-			</NuxtLink>
-		</header>
+		<HeaderComponent>
+			<ContentRenderer
+				v-if="header"
+				:value="header"
+				class="sticky top-0 hidden h-fit w-full max-w-5xl items-center justify-between p-5 md:flex"
+			/>
+		</HeaderComponent>
 
 		<main
 			class="mt-15 flex h-fit w-full max-w-[800px] flex-col items-center gap-30 p-5 md:mt-0"

@@ -9,7 +9,7 @@
 </script>
 
 <template>
-	<li v-if="link">
+	<li v-if="link" class="list-none">
 		<NuxtLink
 			:to="link"
 			:target="target"
@@ -20,7 +20,7 @@
 		</NuxtLink>
 	</li>
 
-	<li v-else class="flex flex-nowrap items-center gap-2">
+	<li v-else class="flex list-none flex-nowrap items-center gap-2">
 		<Icon v-if="icon" :name="icon" />
 		<slot />
 	</li>
