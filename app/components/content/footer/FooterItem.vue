@@ -13,14 +13,14 @@
 		<NuxtLink
 			:to="link"
 			:target="target"
-			class="flex items-center gap-2 transition-colors hover:text-gray-300"
+			class="flex flex-nowrap items-center gap-2 transition-colors hover:text-gray-300"
 		>
 			<Icon v-if="icon" :name="icon" />
 			<slot />
 		</NuxtLink>
 	</li>
 
-	<li v-else class="flex items-center gap-2">
+	<li v-else class="flex flex-nowrap items-center gap-2">
 		<Icon v-if="icon" :name="icon" />
 		<slot />
 	</li>
