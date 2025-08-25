@@ -31,10 +31,12 @@
 				</div>
 
 				<div class="flex flex-col gap-1.5">
-					<h3 class="text-lg text-gray-300">{{ project.title }}</h3>
+					<h3 class="text-lg text-gray-300">
+						<slot name="title" />
+					</h3>
 
 					<p class="text-gray-500">
-						{{ project.description }}
+						<slot name="description" />
 					</p>
 				</div>
 			</div>

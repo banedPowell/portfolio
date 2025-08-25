@@ -23,7 +23,7 @@
 			</div>
 
 			<p class="text-gray-500" :class="tech ? 'font-mono' : 'font-sans'">
-				{{ pill.content }}
+				<slot />
 			</p>
 		</NuxtLink>
 	</li>
@@ -40,7 +40,7 @@
 		</div>
 
 		<p class="text-gray-500" :class="tech ? 'font-mono' : 'font-sans'">
-			{{ pill.content }}
+			<slot />
 		</p>
 	</li>
 </template>
