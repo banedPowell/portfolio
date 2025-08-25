@@ -1,6 +1,6 @@
 <script lang="ts" setup>
 	const { data: page } = useAsyncData('page', () => {
-		return queryCollection('pages').path('/pages/home').first();
+		return queryCollection('pages').path('/pages/').first();
 	});
 </script>
 
