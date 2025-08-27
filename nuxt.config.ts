@@ -15,11 +15,11 @@ export default defineNuxtConfig({
 
 	hooks: {
 		'components:extend': (components) => {
-			const globals = components.filter((c) =>
-				['UButton', 'UIcon'].includes(c.pascalName),
-			);
-
-			globals.forEach((c) => (c.global = true));
+			components.forEach((c) => {
+				if (c.pascalName && c.pascalName.startsWith('U')) {
+					c.global = true;
+				}
+			});
 		},
 	},
 
