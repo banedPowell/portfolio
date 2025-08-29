@@ -1,6 +1,4 @@
 <script lang="ts" setup>
-	export interface PillItem {}
-
 	const props = defineProps<{
 		icon: string;
 		tech: boolean;
