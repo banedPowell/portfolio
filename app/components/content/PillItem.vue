@@ -1,7 +1,7 @@
 <script lang="ts" setup>
 	const props = defineProps<{
 		icon: string;
-		tech: boolean;
+		tech?: boolean;
 		link?: string;
 		target?: '_self' | '_blank' | '_parent' | '_top';
 	}>();
