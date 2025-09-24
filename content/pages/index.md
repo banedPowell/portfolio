@@ -44,5 +44,81 @@ Mes projets
 
 #content
   :::grid-list
+    ::::project-card
+    ---
+    iconAlt: Icone de Deezerstats
+    projectIcon: /projects/deezerstats/deezerstats.png
+    repoUrl: https://github.com/banedpowell/deezerstats.git
+    slug: deezerstats
+    ---
+    #title
+    Deezertstats
+    
+    #description
+    Une application pour analyser les statistaiques d'écoutes deezer.
+    ::::
+  
+    ::::project-card
+    ---
+    iconAlt: Icone de Mon vieux grimoire
+    projectIcon: /projects/grimoire/grimoire.png
+    repoUrl: https://github.com/banedpowell/grimoire-frontend.git
+    slug: grimoire
+    ---
+    #title
+    Mon vieux grimoire
+    
+    #description
+    Une application de référencement et de notation de livres en react
+    ::::
+  
+    ::::project-card
+    ---
+    iconAlt: Icone de cinemotion
+    projectIcon: /projects/cinemotion/cinemotion.png
+    repoUrl: https://github.com/banedpowell/cinemotion.git
+    slug: cinemotion
+    ---
+    #title
+    Cinemotion
+    
+    #description
+    Un client TMDB développé avec Nuxt 3
+    ::::
+  :::
+::
+
+::page-section
+#title
+Me contacter
+
+#content
+  :::grid-list
+    ::::pill-item
+    ---
+    icon: i-simple-icons-bento
+    link: https://bento.me/banedPowell/
+    target: _blank
+    ---
+    banedPowell
+    ::::
+  
+    ::::pill-item
+    ---
+    icon: ion:logo-github
+    link: https://github.com/banedPowell/
+    target: _blank
+    ---
+    banedPowell
+    ::::
+  
+    ::::pill-item
+    ---
+    icon: i-lucide-mail
+    link: mailto:contact@baned.me
+    target: _blank
+    ---
+    contact\@baned.me
+    ::::
   :::
 ::
