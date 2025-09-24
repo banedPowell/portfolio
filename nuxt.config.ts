@@ -13,15 +13,15 @@ export default defineNuxtConfig({
 
 	css: ['~/assets/css/main.css'],
 
-	hooks: {
-		'components:extend': (components) => {
-			components.forEach((c) => {
-				if (c.pascalName && c.pascalName.startsWith('U')) {
-					c.global = true;
-				}
-			});
-		},
-	},
+	// hooks: {
+	// 	'components:extend': (components) => {
+	// 		components.forEach((c) => {
+	// 			if (c.pascalName && c.pascalName.startsWith('U')) {
+	// 				c.global = true;
+	// 			}
+	// 		});
+	// 	},
+	// },
 
 	modules: ['@nuxt/content', '@nuxt/ui', '@vueuse/nuxt', '@nuxt/image'],
 
