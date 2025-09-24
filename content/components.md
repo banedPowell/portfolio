@@ -1,39 +1,29 @@
-::FooterComponent
-
+::footer-component
 ::
 
-::FooterSection
-
+::footer-section
 ::
 
-::HeaderComponent
-
+::header-component
 ::
 
-::LayoutItem
-
+::layout-item
 ::
 
-::FlexList
-
+::flex-list
 ::
 
-::GridList
-
+::grid-list
 ::
 
-::Hero
-
+::hero
 ::
 
-::PageSection
-
+::page-section
 ::
 
-::PillItem
-
+::pill-item
 ::
 
-::ProjectCard
-
+::project-card
 ::
