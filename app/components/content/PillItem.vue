@@ -12,10 +12,10 @@
 		<NuxtLink
 			:to="link"
 			:target="target"
-			class="hover:bg-dark-700 group flex w-fit cursor-pointer flex-row items-center gap-2.5 rounded-[10px] p-[5px] pr-8 transition-colors select-none"
+			class="hover:bg-dark-700 flex w-fit cursor-pointer flex-row items-center gap-2.5 rounded-[10px] p-[5px] pr-8 transition-colors select-none"
 		>
 			<div
-				class="from-dark-700 to-dark-800 group-hover:from-dark-600 group-hover:to-dark-800 flex aspect-square size-[32px] items-center justify-center rounded-[5px] bg-gradient-to-b p-1.5 transition-colors"
+				class="from-dark-600 to-dark-800 flex aspect-square size-[32px] items-center justify-center rounded-[5px] bg-gradient-to-b p-1.5 transition-colors"
 			>
 				<Icon :name="icon" size="32px" class="text-gray-300" />
 			</div>
@@ -28,11 +28,11 @@
 
 	<li
 		v-else
-		class="hover:bg-dark-700 group flex w-fit cursor-pointer flex-row items-center gap-2.5 rounded-[10px] p-[5px] pr-8 transition-colors select-none"
+		class="hover:bg-dark-700 flex w-fit cursor-pointer flex-row items-center gap-2.5 rounded-[10px] p-[5px] pr-8 transition-colors select-none"
 		:class="link ? 'cursor-pointer' : ''"
 	>
 		<div
-			class="from-dark-700 to-dark-800 group-hover:from-dark-600 group-hover:to-dark-800 flex aspect-square size-[32px] items-center justify-center rounded-[5px] bg-gradient-to-b p-1.5 transition-colors"
+			class="from-dark-600 to-dark-800 flex aspect-square size-[32px] items-center justify-center rounded-[5px] bg-gradient-to-b p-1.5 transition-colors"
 		>
 			<Icon :name="icon" size="32px" class="text-gray-300" />
 		</div>
