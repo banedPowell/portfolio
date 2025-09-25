@@ -118,7 +118,7 @@ Me contacter
     link: mailto:contact@baned.me
     target: _blank
     ---
-    contact\@baned.me
+    contact@baned.me
     ::::
   :::
 ::
