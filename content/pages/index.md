@@ -100,7 +100,7 @@ Me contacter
     link: https://bento.me/banedPowell/
     target: _blank
     ---
-    banedPowell
+    Mon profil bento.me
     ::::
   
     ::::pill-item
@@ -109,7 +109,7 @@ Me contacter
     link: https://github.com/banedPowell/
     target: _blank
     ---
-    banedPowell
+    Mon github
     ::::
   
     ::::pill-item
