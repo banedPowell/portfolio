@@ -112,13 +112,8 @@ Me contacter
     Mon github
     ::::
   
-    ::::pill-item
-    ---
-    icon: i-lucide-mail
-    link: mailto:contact@baned.me
-    target: _blank
-    ---
-    contact@baned.me
+    ::::pill-item{icon="i-lucide-mail"}
+    <contact@baned.me>
     ::::
   :::
 ::
