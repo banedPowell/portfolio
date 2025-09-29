@@ -11,5 +11,10 @@ export default defineContentConfig({
 			type: 'page',
 			source: 'layout/*.md',
 		}),
+
+		projects: defineCollection({
+			type: 'page',
+			source: 'projects/*.md',
+		}),
 	},
 });

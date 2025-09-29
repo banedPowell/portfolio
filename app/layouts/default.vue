@@ -18,11 +18,11 @@
 			/>
 		</HeaderComponent>
 
-		<main
+		<UMain
 			class="mt-15 flex h-fit w-full max-w-[800px] flex-col items-center gap-30 p-5 md:mt-0"
 		>
 			<slot />
-		</main>
+		</UMain>
 
 		<FooterComponent>
 			<ContentRenderer
