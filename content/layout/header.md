@@ -1,7 +1,7 @@
 ::layout-item
-baned.me
+[baned.me](/)
 ::
 
 ::layout-item
-Me contacter
+[Me contacter](mailto\:contact@baned.me)
 ::
