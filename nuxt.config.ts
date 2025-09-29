@@ -13,14 +13,14 @@ export default defineNuxtConfig({
 	css: ['~/assets/css/main.css'],
 
 	hooks: {
-		'components:extend': (components) => {
-			components.forEach((c) => {
+		'components:extend': (components: any) => {
+			components.forEach((c: any) => {
 				if (c.filePath && c.filePath.includes('/components/content/')) {
 					c.global = true;
 				}
 			});
 
-			components.forEach((c) => {
+			components.forEach((c: any) => {
 				if (c.pascalName && c.pascalName.startsWith('U')) {
 					c.global = true;
 				}
@@ -28,7 +28,7 @@ export default defineNuxtConfig({
 		},
 	},
 
-	modules: ['@nuxt/content', '@nuxt/ui', '@vueuse/nuxt', '@nuxt/image'],
+	modules: ['@nuxt/ui', '@nuxt/content', '@vueuse/nuxt', '@nuxt/image'],
 
 	content: {
 		build: {
@@ -41,7 +41,7 @@ export default defineNuxtConfig({
 
 		renderer: {
 			anchorLinks: {
-				h1: true,
+				h1: false,
 				h2: true,
 				h3: true,
 				h4: true,
