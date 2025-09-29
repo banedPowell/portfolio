@@ -6,7 +6,7 @@ Me contacter
   :::layout-item
   ---
   icon: ion:logo-github
-  link: https://github.com/banedPowell
+  externalLink: https://github.com/banedPowell
   target: _blank
   ---
   banedPowell
@@ -22,18 +22,18 @@ Me contacter
 Dans ce projet
 
 #items
-  :::layout-item{icon="vscode-icons:file-type-nuxt" link="https://nuxt.com"}
+  :::layout-item{icon="vscode-icons:file-type-nuxt" externalLink="https://nuxt.com"}
   Nuxt 4
   :::
 
-  :::layout-item{icon="simple-icons:nuxtdotjs" link="https://content.nuxt.com"}
+  :::layout-item{icon="simple-icons:nuxtdotjs" externalLink="https://content.nuxt.com"}
   Nuxt Content
   :::
 
   :::layout-item
   ---
   icon: simple-icons:nuxtdotjs
-  link: https://nuxt-security.vercel.app/
+  externalLink: https://nuxt-security.vercel.app/
   ---
   Nuxt Security
   :::
@@ -45,7 +45,7 @@ Dans ce projet
   :::layout-item
   ---
   icon: ion:logo-github
-  link: https://github.com/banedPowell/portfolio/
+  externalLink: https://github.com/banedPowell/portfolio/
   target: _blank
   ---
   Repo github

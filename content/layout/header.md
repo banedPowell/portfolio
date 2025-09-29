@@ -1,7 +1,7 @@
-::layout-item{link="/"}
+::layout-item
 baned.me
 ::
 
-::layout-item{link="mailto:contact@baned.me"}
+::layout-item
 Me contacter
 ::

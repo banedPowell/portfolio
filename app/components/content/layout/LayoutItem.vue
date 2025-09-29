@@ -1,7 +1,7 @@
 <script lang="ts" setup>
 	export interface FooterItem {
 		icon?: string;
-		link?: string;
+		externalLink?: string;
 		target?: '_self' | '_blank' | '_parent' | '_top';
 	}
 
@@ -9,9 +9,9 @@
 </script>
 
 <template>
-	<li v-if="link" class="list-none">
+	<li v-if="externalLink" class="list-none">
 		<NuxtLink
-			:to="link"
+			:to="externalLink"
 			:target="target"
 			class="group/islink flex flex-nowrap items-center gap-2 transition-colors hover:text-gray-300"
 		>
