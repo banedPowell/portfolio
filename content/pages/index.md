@@ -3,18 +3,14 @@
 alt: Memoji de Rubén
 illustration: /memoji.png
 ---
-#title
-Salut ! Je suis [Rubén]{.text-red-400}
+# Salut ! Je suis [Rubén]{.text-red-400}
 
-#description
 Développeur web Fullstack. Je travaille avec Nuxt, Typescript et Postgres. J'ai suivi le parcours Développeur Web d'Openclassrooms
 ::
 
 ::page-section
-#title
-Mes compétences et mes outils
+## Mes compétences et mes outils
 
-#content
   :::flex-list
     ::::pill-item{tech icon="logos:nuxt-icon" target="_parent"}
     Nuxt / Vue
@@ -39,10 +35,8 @@ Mes compétences et mes outils
 ::
 
 ::page-section
-#title
-Mes projets
+## Mes projets
 
-#content
   :::grid-list
     ::::project-card
     ---
@@ -89,10 +83,8 @@ Mes projets
 ::
 
 ::page-section
-#title
-Me contacter
+## Me contacter
 
-#content
   :::grid-list
     ::::pill-item
     ---
@@ -112,7 +104,7 @@ Me contacter
     Mon github
     ::::
   
-    ::::pill-item{icon="i-lucide-mail"}
+    ::::pill-item{link="mailto:contact@baned.me" icon="i-lucide-mail"}
     <contact@baned.me>
     ::::
   :::

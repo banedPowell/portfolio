@@ -54,7 +54,7 @@
 				<NuxtLink
 					:to="repoUrl"
 					target="_blank"
-					class="flex flex-row items-center gap-2 rounded-md p-3 pt-1 pb-1 text-gray-400 transition-colors hover:bg-gray-400/10"
+					class="flex flex-row items-center gap-2 rounded-md p-3 py-1 text-gray-400 transition-colors hover:bg-gray-400/10"
 				>
 					<Icon name="ion:logo-github" class="text-gray-400" />
 

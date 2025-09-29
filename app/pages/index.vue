@@ -6,7 +6,7 @@
 
 <template>
 	<ContentRenderer
-		class="flex w-full flex-col gap-20 selection:bg-red-400/30"
+		class="flex w-full flex-col gap-20"
 		v-if="page"
 		:value="page"
 	/>

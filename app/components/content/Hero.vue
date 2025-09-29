@@ -7,14 +7,8 @@
 
 <template>
 	<section class="flex flex-row justify-between">
-		<div class="flex w-full max-w-[500px] flex-col gap-7">
-			<h1 class="font-display text-4xl font-medium text-gray-100">
-				<slot name="title" />
-			</h1>
-
-			<p class="w-full text-gray-500">
-				<slot name="description" />
-			</p>
+		<div class="flex w-full max-w-[500px] flex-col">
+			<slot />
 		</div>
 
 		<NuxtImg
