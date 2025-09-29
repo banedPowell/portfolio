@@ -13,7 +13,7 @@
 		<NuxtLink
 			:to="link"
 			:target="target"
-			class="group flex flex-nowrap items-center gap-2 transition-colors hover:text-gray-300"
+			class="group/islink flex flex-nowrap items-center gap-2 transition-colors hover:text-gray-300"
 		>
 			<Icon v-if="icon" :name="icon" />
 			<slot />
