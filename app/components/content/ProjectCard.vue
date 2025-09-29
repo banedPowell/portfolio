@@ -26,14 +26,8 @@
 					/>
 				</div>
 
-				<div class="flex flex-col gap-1.5">
-					<h3 class="text-lg text-gray-300">
-						<slot name="title" />
-					</h3>
-
-					<p class="text-gray-500">
-						<slot name="description" />
-					</p>
+				<div class="flex flex-col">
+					<slot />
 				</div>
 			</div>
 		</NuxtLink>
@@ -63,13 +57,7 @@
 			</div>
 
 			<NuxtLink :to="`/projects/${slug}`" class="flex flex-col gap-1.5">
-				<h3 class="text-lg text-gray-300">
-					<slot name="title" />
-				</h3>
-
-				<p class="text-gray-500">
-					<slot name="description" />
-				</p>
+				<slot />
 			</NuxtLink>
 		</div>
 	</li>

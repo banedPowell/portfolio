@@ -45,10 +45,8 @@ Développeur web Fullstack. Je travaille avec Nuxt, Typescript et Postgres. J'ai
     repoUrl: https://github.com/banedpowell/deezerstats.git
     slug: deezerstats
     ---
-    #title
-    Deezertstats
+    #### Deezertstats
     
-    #description
     Une application pour analyser les statistaiques d'écoutes deezer.
     ::::
   
@@ -59,10 +57,8 @@ Développeur web Fullstack. Je travaille avec Nuxt, Typescript et Postgres. J'ai
     repoUrl: https://github.com/banedpowell/grimoire-frontend.git
     slug: grimoire
     ---
-    #title
-    Mon vieux grimoire
+    #### Mon vieux grimoire
     
-    #description
     Une application de référencement et de notation de livres en react
     ::::
   
@@ -73,10 +69,8 @@ Développeur web Fullstack. Je travaille avec Nuxt, Typescript et Postgres. J'ai
     repoUrl: https://github.com/banedpowell/cinemotion.git
     slug: cinemotion
     ---
-    #title
-    Cinemotion
+    #### Cinemotion
     
-    #description
     Un client TMDB développé avec Nuxt 3
     ::::
   :::

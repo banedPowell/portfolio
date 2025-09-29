@@ -16,6 +16,11 @@ export default defineAppConfig({
 					base: 'text-2xl text-gray-300 font-display font-normal',
 				},
 			},
+			h4: {
+				slots: {
+					base: 'text-lg text-gray-300 font-display font-normal mt-0 mb-1',
+				},
+			},
 			p: {
 				base: 'my-0 w-full text-gray-500 group-hover:text-gray-300 transition-colors',
 			},

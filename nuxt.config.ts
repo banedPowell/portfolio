@@ -44,9 +44,9 @@ export default defineNuxtConfig({
 				h1: false,
 				h2: true,
 				h3: true,
-				h4: true,
-				h5: true,
-				h6: true,
+				h4: false,
+				h5: false,
+				h6: false,
 			},
 		},
 
