@@ -1,3 +1,16 @@
+---
+seo:
+  locale: fr-FR
+  url: https://baned.me/projects/deezerstats
+  image: /seo.png
+  title: banedPowell ⋅ Deezerstats
+  description: "Découvrez mon projet Deezerstats : une application d'analyse de
+    l'historique d'écoutes Deezer pour en extraire des tatistiques détaillées."
+description: "Découvrez mon projet Deezerstats : une application d'analyse de
+  l'historique d'écoutes Deezer pour en extraire des tatistiques détaillées."
+title: banedPowell ⋅ Deezerstats
+---
+
 ::page-section
 ---
 logo: /projects/deezerstats/deezerstats.png
