@@ -10,7 +10,7 @@
 	<div class="flex w-full flex-col gap-20">
 		<ULink
 			to="/"
-			class="flex flex-row items-center gap-2 text-gray-500 hover:text-gray-300"
+			class="bg-dark-800 hover:bg-dark-700 flex w-fit flex-row items-center gap-2 rounded-md px-5 py-2 text-gray-500 hover:text-gray-300"
 		>
 			<Icon name="lucide:arrow-left" /> Retour
 		</ULink>
