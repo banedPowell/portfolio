@@ -57,6 +57,7 @@ Ce projet m’a permis de consolider mes compétences en développement fullstac
   ---
   default-value: 1
   disabled: true
+  orientation: vertical
   items:
     - title: Authentification
       description: Interface utilisateur et implémentation de l'authentification avec
@@ -80,7 +81,6 @@ Ce projet m’a permis de consolider mes compétences en développement fullstac
       description: Intégration temps réel avec l'API officielle Deezer pour des
         statistiques mises à jour
       icon: i-lucide-refresh-cw
-  orientation: vertical
   ---
   :::
 ::

@@ -5,6 +5,22 @@ export default defineAppConfig({
 			neutral: 'dark',
 		},
 
+		stepper: {
+			slots: {
+				wrapper: 'text-gray-300',
+				title: 'text-gray-300',
+				description: 'text-gray-500',
+			},
+		},
+
+		modal: {
+			slots: {
+				wrapper: 'text-gray-300',
+				title: 'text-gray-300',
+				description: 'text-gray-500',
+			},
+		},
+
 		prose: {
 			h1: {
 				slots: {
