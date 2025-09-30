@@ -5,6 +5,16 @@ logo-alt: Logo de Deezerstats
 ---
 # Deezertstats
 
+:::flex-list
+::::pill-item{icon="i-simple-icons-github" link="https://github.com/banedpowell/deezerstats" target="_blank"}
+Repo Github
+::::
+
+::::pill-item{icon="i-lucide-globe" link="https://deezerstats.baned.me" target="_blank"}
+Site  
+::::
+:::
+
 DeezerStats est une application fullstack dédiée à l’analyse de l’historique d’écoute Deezer pour en extraire des statistiques personnalisées.
 
 Ce projet m’a permis d’explorer le traitement de larges fichiers, l'extraction et le traitement de ses données, et la restitution de données via une interface claire et dynamique.
