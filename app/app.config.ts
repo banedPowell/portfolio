@@ -1,7 +1,7 @@
 export default defineAppConfig({
 	ui: {
 		colors: {
-			primary: 'red',
+			primary: 'gray',
 			neutral: 'dark',
 		},
 
@@ -18,6 +18,12 @@ export default defineAppConfig({
 				wrapper: 'text-gray-300',
 				title: 'text-gray-300',
 				description: 'text-gray-500',
+			},
+		},
+
+		button: {
+			slots: {
+				base: 'w-fit',
 			},
 		},
 
