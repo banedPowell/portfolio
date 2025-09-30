@@ -1,3 +1,13 @@
+---
+title: banedPowell • Portfolio
+description: Développeur web Fullstack. Je travaille avec Nuxt, Typescript et
+  Postgres. J'ai suivi le parcours Développeur Web d'Openclassrooms
+seo:
+  description: Développeur web Fullstack. Je travaille avec Nuxt, Typescript et
+    Postgres. J'ai suivi le parcours Développeur Web d'Openclassrooms
+  title: banedPowell • Portfolio
+---
+
 ::hero{alt="Memoji de Rubén" illustration="/memoji.png"}
 # Salut ! Je suis [Rubén]{.text-red-400}
 
@@ -95,7 +105,7 @@ Développeur web Fullstack. Je travaille avec Nuxt, Typescript et Postgres. J'ai
     ::::
   
     ::::pill-item{icon="i-lucide-mail" link="mailto:contact@baned.me"}
-    contact\@baned.me
+    <contact@baned.me>
     ::::
   :::
 ::
