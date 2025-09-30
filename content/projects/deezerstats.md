@@ -5,15 +5,25 @@ logo-alt: Logo de Deezerstats
 ---
 # Deezertstats
 
-:::flex-list
-::::pill-item{icon="i-simple-icons-github" link="https://github.com/banedpowell/deezerstats" target="_blank"}
-Repo Github
-::::
-
-::::pill-item{icon="i-lucide-globe" link="https://deezerstats.baned.me" target="_blank"}
-Site  
-::::
-:::
+  :::flex-list
+    ::::pill-item
+    ---
+    icon: i-simple-icons-github
+    link: https://github.com/banedpowell/deezerstats
+    target: _blank
+    ---
+    Repo Github
+    ::::
+  
+    ::::pill-item
+    ---
+    icon: i-lucide-globe
+    link: https://deezerstats.baned.me
+    target: _blank
+    ---
+    Site
+    ::::
+  :::
 
 DeezerStats est une application fullstack dédiée à l’analyse de l’historique d’écoute Deezer pour en extraire des statistiques personnalisées.
 
@@ -67,7 +77,6 @@ Ce projet m’a permis de consolider mes compétences en développement fullstac
   ---
   default-value: 1
   disabled: true
-  orientation: vertical
   items:
     - title: Authentification
       description: Interface utilisateur et implémentation de l'authentification avec
@@ -91,6 +100,7 @@ Ce projet m’a permis de consolider mes compétences en développement fullstac
       description: Intégration temps réel avec l'API officielle Deezer pour des
         statistiques mises à jour
       icon: i-lucide-refresh-cw
+  orientation: vertical
   ---
   :::
 ::
@@ -118,7 +128,7 @@ Ce projet m’a permis de consolider mes compétences en développement fullstac
     ::::
   
     ::::pill-item{icon="i-lucide-mail" link="mailto:contact@baned.me"}
-    <contact@baned.me>
+    contact\@baned.me
     ::::
   :::
 ::
