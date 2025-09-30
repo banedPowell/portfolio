@@ -28,7 +28,13 @@ export default defineNuxtConfig({
 		},
 	},
 
-	modules: ['@nuxt/ui', '@nuxt/content', '@vueuse/nuxt', '@nuxt/image'],
+	modules: [
+		'@nuxt/ui',
+		'@nuxt/content',
+		'@vueuse/nuxt',
+		'@nuxt/image',
+		'@nuxthub/core',
+	],
 
 	content: {
 		build: {
