@@ -6,6 +6,9 @@ seo:
   description: Développeur web Fullstack. Je travaille avec Nuxt, Typescript et
     Postgres. J'ai suivi le parcours Développeur Web d'Openclassrooms
   title: banedPowell • Portfolio
+  image: /seo.png
+  url: https://baned.me
+  locale: fr-FR
 ---
 
 ::hero{alt="Memoji de Rubén" illustration="/memoji.png"}
