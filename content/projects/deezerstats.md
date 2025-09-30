@@ -128,7 +128,7 @@ Ce projet m’a permis de consolider mes compétences en développement fullstac
     ::::
   
     ::::pill-item{icon="i-lucide-mail" link="mailto:contact@baned.me"}
-    contact\@baned.me
+    <contact@baned.me>
     ::::
   :::
 ::
