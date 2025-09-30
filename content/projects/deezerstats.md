@@ -5,11 +5,11 @@ logo-alt: Logo de Deezerstats
 ---
 # Deezertstats
 
-DeezerStats est une application fullstack dédiée à l’analyse de l’historique d’écoute Deezer pour en extraire des statistiques personnalisées. 
+DeezerStats est une application fullstack dédiée à l’analyse de l’historique d’écoute Deezer pour en extraire des statistiques personnalisées.
 
-Ce projet m’a permis d’explorer le traitement de larges fichiers, l'extraction et le traitement de ses données, et la restitution de données via une interface claire et dynamique. 
+Ce projet m’a permis d’explorer le traitement de larges fichiers, l'extraction et le traitement de ses données, et la restitution de données via une interface claire et dynamique.
 
-J’y ai mis en œuvre une architecture robuste, avec authentification sécurisée, stockage et traitement des données via Supabase, et affichage temps réel de l’état d’analyse grâce à Supabase Realtime. 
+J’y ai mis en œuvre une architecture robuste, avec authentification sécurisée, stockage et traitement des données via Supabase, et affichage temps réel de l’état d’analyse grâce à Supabase Realtime.
 
 Ce projet m’a permis de consolider mes compétences en développement fullstack, en gestion des flux de données, et en création d’interfaces réactives avec Nuxt.
 ::
@@ -38,14 +38,14 @@ Ce projet m’a permis de consolider mes compétences en développement fullstac
   :::project-illustrations-list
   ---
   firstIllustration: /projects/deezerstats/connexion.png
-  firstIllustrationTitle: Connexion
   firstIllustrationAlt: Screenshot de lécran de connexion
+  firstIllustrationTitle: Connexion
   secondIllustration: /projects/deezerstats/dashboard.png
-  secondIllustrationTitle: Dashboard
   secondIllustrationAlt: Screenshot du dashboard
+  secondIllustrationTitle: Dashboard
   thirdIllustration: /projects/deezerstats/supabase.png
-  thirdIllustrationTitle: Supabase
   thirdIllustrationAlt: Screenshot de la db supabase
+  thirdIllustrationTitle: Supabase
   ---
   :::
 ::
@@ -55,28 +55,32 @@ Ce projet m’a permis de consolider mes compétences en développement fullstac
 
   :::u-stepper
   ---
-  orientation: vertical
-  disabled: true
   default-value: 1
+  disabled: true
   items:
     - title: Authentification
-      description: Interface utilisateur et implémentation de l'authentification avec Supabase pour se connecter à l'application
+      description: Interface utilisateur et implémentation de l'authentification avec
+        Supabase pour se connecter à l'application
       icon: i-lucide-lock
     - title: Dashboard
       description: Dashboard principal avec les statistiques d'écoute les plus importantes
       icon: i-lucide-music
     - title: Pages détails
-      description: Pages dédiées avec informations plus détaillées et statistiques spécifiques pour chaque album, morceau et artiste
+      description: Pages dédiées avec informations plus détaillées et statistiques
+        spécifiques pour chaque album, morceau et artiste
       icon: i-lucide-info
     - title: Page profil
       description: Page de profil pour gérer les données personnelles et paramètres
       icon: i-lucide-user
     - title: Social
-      description: Fonctionnalités sociales pour partager et découvrir les goûts musicaux entre utilisateurs  
+      description: Fonctionnalités sociales pour partager et découvrir les goûts
+        musicaux entre utilisateurs
       icon: i-lucide-users
     - title: API Deezer
-      description: Intégration temps réel avec l'API officielle Deezer pour des statistiques mises à jour
+      description: Intégration temps réel avec l'API officielle Deezer pour des
+        statistiques mises à jour
       icon: i-lucide-refresh-cw
+  orientation: vertical
   ---
   :::
 ::
