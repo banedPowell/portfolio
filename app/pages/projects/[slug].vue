@@ -8,7 +8,10 @@
 
 <template>
 	<div class="flex w-full flex-col gap-20">
-		<ULink to="/" class="flex flex-row items-center gap-2">
+		<ULink
+			to="/"
+			class="flex flex-row items-center gap-2 text-gray-500 hover:text-gray-300"
+		>
 			<Icon name="lucide:arrow-left" /> Retour
 		</ULink>
 
