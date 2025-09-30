@@ -2,6 +2,25 @@
 	const { data: page } = useAsyncData('page', () => {
 		return queryCollection('pages').path('/pages/').first();
 	});
+
+	useSeoMeta({
+		title: page?.value?.seo?.title,
+		description: page?.value?.seo?.description,
+		ogTitle: page?.value?.seo?.title,
+		ogDescription: page?.value?.seo?.description,
+		ogImage: page?.value?.seo?.image,
+		ogUrl: page?.value?.seo?.url,
+		ogType: 'website',
+		ogLocale: page?.value?.seo?.locale,
+		ogSiteName: page?.value?.seo?.title,
+		ogLocaleAlternate: page?.value?.seo?.locale,
+		twitterTitle: page?.value?.seo?.title,
+		twitterDescription: page?.value?.seo?.description,
+		twitterImage: page?.value?.seo?.image,
+		twitterCard: 'summary_large_image',
+		twitterSite: '@banedpowell',
+		twitterCreator: '@banedpowell',
+	});
 </script>
 
 <template>

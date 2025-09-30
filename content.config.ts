@@ -5,6 +5,15 @@ export default defineContentConfig({
 		pages: defineCollection({
 			type: 'page',
 			source: 'pages/*.md',
+			schema: z.object({
+				seo: z.object({
+					title: z.string(),
+					description: z.string(),
+					image: z.string(),
+					url: z.string(),
+					locale: z.string(),
+				}),
+			}),
 		}),
 
 		layout: defineCollection({
@@ -15,6 +24,15 @@ export default defineContentConfig({
 		projects: defineCollection({
 			type: 'page',
 			source: 'projects/*.md',
+			schema: z.object({
+				seo: z.object({
+					title: z.string(),
+					description: z.string(),
+					image: z.string(),
+					url: z.string(),
+					locale: z.string(),
+				}),
+			}),
 		}),
 	},
 });
