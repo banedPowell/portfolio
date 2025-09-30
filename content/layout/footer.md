@@ -1,6 +1,6 @@
 ::footer-section
 #title
-Me contacter
+**Me contacter**
 
 #items
   :::layout-item{icon="ion:logo-github"}
@@ -14,7 +14,7 @@ Me contacter
 
 ::footer-section
 #title
-Dans ce projet
+**Dans ce projet**
 
 #items
   :::layout-item{icon="vscode-icons:file-type-nuxt"}
@@ -23,6 +23,10 @@ Dans ce projet
 
   :::layout-item{icon="simple-icons:nuxtdotjs"}
   [Nuxt Content](https://content.nuxt.com)
+  :::
+
+  :::layout-item{icon="simple-icons:nuxtdotjs"}
+  [Nuxt UI](https://ui.nuxt.com)
   :::
 
   :::layout-item{icon="simple-icons:nuxtdotjs"}

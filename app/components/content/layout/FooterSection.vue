@@ -3,9 +3,7 @@
 <template>
 	<ul class="flex flex-col items-start justify-start gap-1">
 		<li>
-			<h4 class="mb-1.5 font-black">
-				<slot name="title" />
-			</h4>
+			<slot name="title" />
 		</li>
 
 		<slot name="items" />
