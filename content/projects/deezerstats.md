@@ -28,4 +28,46 @@ DeezerStats est une application fullstack dédiée à l’analyse de l’histori
 
 ::page-section
 ## Illustrations
+
+  :::projects-illustrations
+  ---
+  firstIllustration: /projects/deezerstats/connexion.png
+  firstIllustrationTitle: Connexion
+  firstIllustrationAlt: Screenshot de lécran de connexion
+  secondIllustration: /projects/deezerstats/dashboard.png
+  secondIllustrationTitle: Dashboard
+  secondIllustrationAlt: Screenshot du dashboard
+  thirdIllustration: /projects/deezerstats/supabase.png
+  thirdIllustrationTitle: Supabase
+  thirdIllustrationAlt: Screenshot de la db supabase
+  ---
+  :::
+::
+
+::page-section
+## Me contacter
+
+  :::grid-list
+    ::::pill-item
+    ---
+    icon: i-simple-icons-bento
+    link: https://bento.me/banedPowell/
+    target: _blank
+    ---
+    Mon profil bento.me
+    ::::
+  
+    ::::pill-item
+    ---
+    icon: ion:logo-github
+    link: https://github.com/banedPowell/
+    target: _blank
+    ---
+    Mon github
+    ::::
+  
+    ::::pill-item{icon="i-lucide-mail" link="mailto:contact@baned.me"}
+    <contact@baned.me>
+    ::::
+  :::
 ::
