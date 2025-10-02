@@ -38,13 +38,13 @@ logo-alt: Logo de Deezerstats
     ::::
   :::
 
-DeezerStats est une application fullstack dédiée à l’analyse de l’historique d’écoute Deezer pour en extraire des statistiques personnalisées.
+DeezerStats est une application fullstack dédiée à l’analyse de l’historique d’écoute Deezer pour en extraire des statistiques détaillées.
 
-Ce projet m’a permis d’explorer le traitement de larges fichiers, l'extraction et le traitement de ses données, et la restitution de données via une interface claire et dynamique.
+Ce projet m’a permis d’explorer le traitement de larges fichiers, l'extraction et le traitement de ses données, et enfin la restitution de données via une interface intuitive.
 
-J’y ai mis en œuvre une architecture robuste, avec authentification sécurisée, stockage et traitement des données via Supabase, et affichage temps réel de l’état d’analyse grâce à Supabase Realtime.
+J’y ai mis en œuvre une authentification sécurisée, le stockage et traitement des données via Supabase, ainsi que l'affichage en temps réel de l’état d’analyse grâce à Supabase Realtime.
 
-Ce projet m’a permis de consolider mes compétences en développement fullstack, en gestion des flux de données, et en création d’interfaces réactives avec Nuxt.
+Ce projet m’a permis de consolider mes compétences en développement fullstack, en gestion des flux de données, et en création d’interfaces avec Nuxt.
 ::
 
 ::page-section
@@ -62,6 +62,10 @@ Ce projet m’a permis de consolider mes compétences en développement fullstac
     ::::pill-item{tech icon="devicon:supabase"}
     Supabase
     ::::
+  
+    ::::pill-item{tech icon="logos:tailwindcss-icon"}
+    Tailwind
+    ::::
   :::
 ::
 
@@ -70,15 +74,15 @@ Ce projet m’a permis de consolider mes compétences en développement fullstac
 
   :::project-illustrations-list
   ---
-  firstIllustration: /projects/deezerstats/connexion.png
-  firstIllustrationAlt: Screenshot de lécran de connexion
-  firstIllustrationTitle: Connexion
+  firstIllustration: /projects/deezerstats/home.png
+  firstIllustrationAlt: Screenshot de la page d'accueil
+  firstIllustrationTitle: Page d'accueil
   secondIllustration: /projects/deezerstats/dashboard.png
   secondIllustrationAlt: Screenshot du dashboard
   secondIllustrationTitle: Dashboard
-  thirdIllustration: /projects/deezerstats/supabase.png
-  thirdIllustrationAlt: Screenshot de la db supabase
-  thirdIllustrationTitle: Supabase
+  thirdIllustration: /projects/deezerstats/login.png
+  thirdIllustrationAlt: Screenshot de la page de connexion
+  thirdIllustrationTitle: Connexion
   ---
   :::
 ::
@@ -96,7 +100,9 @@ Ce projet m’a permis de consolider mes compétences en développement fullstac
         Supabase pour se connecter à l'application
       icon: i-lucide-lock
     - title: Dashboard
-      description: Dashboard principal avec les statistiques d'écoute les plus importantes
+      description: Dashboard principal avec les statistiques d'écoute les plus
+        importantes. Connexion à l'api deezer pour récupérer les affiches et dates
+        de sortie.
       icon: i-lucide-music
     - title: Pages détails
       description: Pages dédiées avec informations plus détaillées et statistiques
