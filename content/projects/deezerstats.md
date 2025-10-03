@@ -38,11 +38,9 @@ logo-alt: Logo de Deezerstats
     ::::
   :::
 
-DeezerStats est une application fullstack dédiée à l’analyse de l’historique d’écoute Deezer pour en extraire des statistiques détaillées.
+DeezerStats est une *application fullstack* dédiée à l’analyse de l’historique d’écoute Deezer pour en extraire des statistiques détaillées.
 
-Ce projet m’a permis d’explorer le traitement de larges fichiers, l'extraction et le traitement de ses données, et enfin la restitution de données via une interface intuitive.
-
-J’y ai mis en œuvre une authentification sécurisée, le stockage et traitement des données via Supabase, ainsi que l'affichage en temps réel de l’état d’analyse grâce à Supabase Realtime.
+Ce projet m’a permis d’explorer le traitement de larges fichiers, l'extraction et l'exploitation de ses données, et enfin la restitution de données via une interface intuitive.
 
 Ce projet m’a permis de consolider mes compétences en développement fullstack, en gestion des flux de données, et en création d’interfaces avec Nuxt.
 ::
@@ -63,10 +61,20 @@ Ce projet m’a permis de consolider mes compétences en développement fullstac
     Supabase
     ::::
   
+    ::::pill-item{tech icon="devicon:sass"}
+    Scss
+    ::::
+  
     ::::pill-item{tech icon="logos:tailwindcss-icon"}
     Tailwind
     ::::
   :::
+
+J'ai pu créer l'interface front avec `Nuxt`. Le serveur intégré avec Nuxt : `Nitro` m'a permis de gérer la récupération du fichier d'historique et son traitement pour l'envoyer proprement à la base de données `Supabase`.
+
+`Supabase`, en plus du *stockage et de la restitution des données*, m'a permis de gérer l'*authentification* ainsi que l'affichage en temps réel de l’état d’analyse du fichier d'historique grâce à sa fonctionnalité de `Realtime`.
+
+Concernant le style, j'ai commencé par habitude avec `Scss`. En cours de route j'ai voulu essayer `Tailwindcss`. Je prévois désormais de migrer totalement dessus.
 ::
 
 ::page-section
