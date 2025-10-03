@@ -27,7 +27,7 @@ logo-alt: "Logo de mon vieux grimoire : un livre avec couverture rouge"
 
 Mon Vieux Grimoire est une `API` backend performante et sécurisée conçue pour une plateforme de référencement et de notation de livres.
 
-Il s'agit là du projet **OpenClassrooms** que j'ai trouvé le plus stimulant et le plus intéressant car il m'a permis d'apprendre les bases du côté backend du développement d'applications web.
+Il s'agit là du projet *OpenClassrooms* que j'ai trouvé le plus stimulant et le plus intéressant car il m'a permis d'apprendre les bases du côté *backend* du développement d'applications web.
 ::
 
 ::page-section
@@ -43,9 +43,9 @@ Il s'agit là du projet **OpenClassrooms** que j'ai trouvé le plus stimulant et
     ::::
   :::
 
-Ce projet m’a permis de relever plusieurs défis techniques, tels que l’intégration sécurisée de `JWT` pour l’**authentification**, l’optimisation des images avec Multer et Sharp, et la gestion efficace des données avec **MongoDB et Mongoose**.
+Ce projet m’a permis de relever plusieurs défis techniques, tels que l’intégration sécurisée de `JWT` pour l’*authentification*, l’optimisation des images avec Multer et Sharp, et la gestion efficace des données avec `MongoDB` et `Mongoose`.
 
-J’ai également renforcé mes compétences en conception d’**API RESTful** robustes et évolutives
+J’ai également renforcé mes compétences en conception d’*API RESTful* robustes et évolutives
 ::
 
 ::page-section
