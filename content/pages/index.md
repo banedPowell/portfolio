@@ -29,6 +29,14 @@ Développeur web Fullstack. Je travaille avec Nuxt, Typescript et Postgres. J'ai
     Node.JS / Express.JS
     ::::
   
+    ::::pill-item{tech icon="logos:tailwindcss-icon" target="_parent"}
+    Tailwindcss
+    ::::
+  
+    ::::pill-item{tech icon="logos:postgresql" target="_parent"}
+    SQL
+    ::::
+  
     ::::pill-item{tech icon="devicon:figma" target="_parent"}
     Figma
     ::::
