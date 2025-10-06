@@ -42,7 +42,19 @@ DeezerStats est une *application fullstack* dédiée à l’analyse de l’histo
 
 Ce projet m’a permis d’explorer le traitement de larges fichiers, l'extraction et l'exploitation de ses données, et enfin la restitution de données via une interface intuitive.
 
-Ce projet m’a permis de consolider mes compétences en développement fullstack, en gestion des flux de données, et en création d’interfaces avec Nuxt.
+Ce projet m’a permis de consolider mes compétences en développement fullstack, en gestion des flux de données, et en conception d’interfaces avec Nuxt.
+
+## Découvrir et tester l'application
+
+Comme tout le monde ne possède pas de compte Deezer, j’ai mis à disposition un compte de démonstration permettant d’accéder à un aperçu de l’interface (encore en développement), après l’envoi et le traitement d’un fichier d’exemple.
+
+```md [Adresse mail]
+baned@example.com
+```
+
+```md [Mot de passe]
+2e2#5W1eMJNik&Fr!3Lz2PPmO7y$K8*a
+```
 ::
 
 ::page-section
