@@ -1,6 +1,6 @@
 ::footer-section
 #title
-**Me contacter**
+**Me retrouver**
 
 #items
   :::layout-item{icon="ion:logo-github"}
@@ -29,12 +29,12 @@
   [Nuxt UI](https://ui.nuxt.com)
   :::
 
-  :::layout-item{icon="simple-icons:nuxtdotjs"}
-  [Nuxt Security](https://nuxt-security.vercel.app/)
+  :::layout-item{icon="simple-icons:tailwindcss"}
+  [Tailwindcss](https://tailwindcss.com)
   :::
 
   :::layout-item{icon="devicon-plain:typescript"}
-  Typescript
+  [Typescript](https://www.typescriptlang.org/)
   :::
 
   :::layout-item{icon="ion:logo-github"}

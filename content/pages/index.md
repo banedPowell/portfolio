@@ -29,6 +29,15 @@ Développeur web Fullstack. Je travaille avec Nuxt, Typescript et Postgres. J'ai
     Node.JS
     ::::
   
+    ::::pill-item
+    ---
+    tech: true
+    icon: vscode-icons:file-type-typescript-official
+    target: _parent
+    ---
+    Typescript
+    ::::
+  
     ::::pill-item{tech icon="logos:tailwindcss-icon" target="_parent"}
     Tailwindcss
     ::::
@@ -90,7 +99,7 @@ Développeur web Fullstack. Je travaille avec Nuxt, Typescript et Postgres. J'ai
 ::
 
 ::page-section
-## Me contacter
+## Me retrouver
 
   :::grid-list
     ::::pill-item
