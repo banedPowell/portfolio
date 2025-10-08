@@ -21,6 +21,10 @@
 		twitterSite: '@banedpowell',
 		twitterCreator: '@banedpowell',
 	});
+
+	definePageMeta({
+		colorMode: 'dark',
+	});
 </script>
 
 <template>
