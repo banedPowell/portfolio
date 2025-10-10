@@ -6,22 +6,28 @@
 	});
 
 	useSeoMeta({
-		title: project?.value?.seo?.title,
-		description: project?.value?.seo?.description,
 		ogTitle: project?.value?.seo?.title,
+		description: project?.value?.seo?.description,
 		ogDescription: project?.value?.seo?.description,
 		ogImage: project?.value?.seo?.image,
 		ogUrl: project?.value?.seo?.url,
-		ogType: 'website',
-		ogLocale: project?.value?.seo?.locale,
-		ogSiteName: project?.value?.seo?.title,
-		ogLocaleAlternate: project?.value?.seo?.locale,
 		twitterTitle: project?.value?.seo?.title,
 		twitterDescription: project?.value?.seo?.description,
 		twitterImage: project?.value?.seo?.image,
 		twitterCard: 'summary_large_image',
-		twitterSite: '@banedpowell',
-		twitterCreator: '@banedpowell',
+	});
+
+	useHead({
+		htmlAttrs: {
+			lang: project?.value?.seo?.locale,
+		},
+		link: [
+			{
+				rel: 'icon',
+				type: 'image/png',
+				href: '/baned.png',
+			},
+		],
 	});
 
 	definePageMeta({

@@ -1,6 +1,9 @@
 <script lang="ts" setup>
 	useHead({
 		title: 'banedPowell • Portfolio',
+		htmlAttrs: {
+			lang: 'fr-FR',
+		},
 	});
 </script>
 
