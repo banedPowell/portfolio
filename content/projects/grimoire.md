@@ -1,3 +1,16 @@
+---
+description: "Découvrez mon projet Mon vieux grimoire : une API de référencement
+  et de notation de livres"
+title: banedPowell • Mon vieux grimoire
+seo:
+  title: banedPowell • Mon vieux grimoire
+  description: "Découvrez mon projet Mon vieux grimoire : une API de référencement
+    et de notation de livres"
+  image: /seo.png
+  url: https://baned.me/projects/grimoire
+  locale: fr-FR
+---
+
 ::page-section
 ---
 logo: /projects/grimoire/grimoire.png

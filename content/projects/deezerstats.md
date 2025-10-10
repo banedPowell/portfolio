@@ -5,9 +5,9 @@ seo:
   image: /seo.png
   title: banedPowell ⋅ Deezerstats
   description: "Découvrez mon projet Deezerstats : une application d'analyse de
-    l'historique d'écoutes Deezer pour en extraire des tatistiques détaillées."
+    votre compte Deezer pour en extraire des statistiques détaillées."
 description: "Découvrez mon projet Deezerstats : une application d'analyse de
-  l'historique d'écoutes Deezer pour en extraire des tatistiques détaillées."
+  votre compte Deezer pour en extraire des statistiques détaillées."
 title: banedPowell ⋅ Deezerstats
 ---
 
