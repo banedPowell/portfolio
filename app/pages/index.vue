@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-	const { data: page } = useAsyncData('page', () => {
+	const { data: page } = await useAsyncData('page', () => {
 		return queryCollection('pages').path('/pages/').first();
 	});
 
@@ -13,6 +13,7 @@
 		twitterDescription: page?.value?.seo?.description,
 		twitterImage: page?.value?.seo?.image,
 		twitterCard: 'summary_large_image',
+		twitterCreator: '@banedpowell',
 	});
 
 	useHead({

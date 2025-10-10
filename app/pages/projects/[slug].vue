@@ -15,6 +15,7 @@
 		twitterDescription: project?.value?.seo?.description,
 		twitterImage: project?.value?.seo?.image,
 		twitterCard: 'summary_large_image',
+		twitterCreator: '@banedpowell',
 	});
 
 	useHead({
