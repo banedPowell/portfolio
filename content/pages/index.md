@@ -81,7 +81,7 @@ Développeur web Fullstack. Je travaille avec Nuxt, Typescript et Postgres. J'ai
     ---
     #### Mon vieux grimoire
     
-    Une application de référencement et de notation de livres en react
+    Une API de référencement et de notation de livres.
     ::::
   
     ::::project-card
@@ -94,6 +94,18 @@ Développeur web Fullstack. Je travaille avec Nuxt, Typescript et Postgres. J'ai
     #### Cinemotion
     
     Un client TMDB développé avec Nuxt 3
+    ::::
+  
+    ::::project-card
+    ---
+    iconAlt: Icone de Kasa
+    projectIcon: /projects/kasa/logo.png
+    repoUrl: https://github.com/banedpowell/kasa.git
+    slug: kasa
+    ---
+    #### Kasa
+    
+    Une plateforme *location d’appartements entre particuliers*, développée en React.
     ::::
   :::
 ::
