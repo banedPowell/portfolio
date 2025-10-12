@@ -80,7 +80,7 @@ J’ai également renforcé mes compétences en conception d’*API RESTful* rob
 ::
 
 ::page-section
-## Me contacter
+## Me retrouver
 
   :::grid-list
     ::::pill-item
@@ -103,6 +103,15 @@ J’ai également renforcé mes compétences en conception d’*API RESTful* rob
   
     ::::pill-item{icon="i-lucide-mail" link="mailto:contact@baned.me"}
     <contact@baned.me>
+    ::::
+  
+    ::::pill-item
+    ---
+    icon: ri:linkedin-fill
+    link: https://www.linkedin.com/in/rub%C3%A9ndc/
+    target: _blank
+    ---
+    Linkedin
     ::::
   :::
 ::

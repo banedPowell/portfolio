@@ -145,7 +145,7 @@ Concernant le style, j'ai commencé par habitude avec `Scss`. En cours de route 
 ::
 
 ::page-section
-## Me contacter
+## Me retrouver
 
   :::grid-list
     ::::pill-item
@@ -168,6 +168,15 @@ Concernant le style, j'ai commencé par habitude avec `Scss`. En cours de route 
   
     ::::pill-item{icon="i-lucide-mail" link="mailto:contact@baned.me"}
     <contact@baned.me>
+    ::::
+  
+    ::::pill-item
+    ---
+    icon: ri:linkedin-fill
+    link: https://www.linkedin.com/in/rub%C3%A9ndc/
+    target: _blank
+    ---
+    Linkedin
     ::::
   :::
 ::
