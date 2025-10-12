@@ -123,7 +123,7 @@ Développeur web Fullstack. Je travaille avec Nuxt, Typescript et Postgres. J'ai
     ::::pill-item{icon="i-lucide-mail" link="mailto:contact@baned.me"}
     <contact@baned.me>
     ::::
-
+  
     ::::pill-item
     ---
     icon: ri:linkedin-fill
