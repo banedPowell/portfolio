@@ -93,7 +93,7 @@ Développeur web Fullstack. Je travaille avec Nuxt, Typescript et Postgres. J'ai
     ---
     #### Cinemotion
     
-    Un client TMDB développé avec Nuxt 3
+    Un client TMDB développé avec Nuxt 3 et Scss.
     ::::
   
     ::::project-card
