@@ -14,8 +14,13 @@ seo:
 ::hero{alt="Memoji de Rubén" illustration="/memoji.png"}
 # Salut ! Je suis [Rubén]{.text-red-400}
 
-Développeur web Fullstack. Je travaille avec Nuxt, Typescript et Postgres. J'ai suivi le parcours Développeur Web d'Openclassrooms
+Développeur web Fullstack junior, passionné par `Nuxt` et l’écosystème `VueJS`.
+
+J’aime créer des interfaces modernes, soignées et réactives, et explorer le côté serveur avec `Node`, `Express` ou `Nitro`.
+
+Je cherche à progresser chaque jour en construisant des projets clairs, performants et agréables à utiliser.
 ::
+
 
 ::page-section
 ## Mes compétences et mes outils
