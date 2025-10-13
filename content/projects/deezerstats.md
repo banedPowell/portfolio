@@ -151,7 +151,7 @@ Concernant le style, j'ai commencé par habitude avec `Scss`. En cours de route 
     ::::pill-item
     ---
     icon: i-simple-icons-bento
-    link: https://bento.me/banedPowell/
+    link: https://bento.me/banedpowell/
     target: _blank
     ---
     Mon profil bento.me
