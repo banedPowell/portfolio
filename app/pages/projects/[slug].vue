@@ -66,7 +66,7 @@
 		</UPageBody>
 
 		<template #right>
-			<UPageAside>
+			<UPageAside class="w-fit">
 				<UContentToc
 					:links="project?.body?.toc?.links"
 					title="Sur cette page"

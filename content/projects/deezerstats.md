@@ -44,7 +44,7 @@ Ce projet m’a permis d’explorer le traitement de larges fichiers, l'extracti
 
 Ce projet m’a permis de consolider mes compétences en développement fullstack, en gestion des flux de données, et en conception d’interfaces avec Nuxt.
 
-## Découvrir et tester
+## Découvrir et tester l'application
 
 Comme tout le monde ne possède pas de compte Deezer, j’ai mis à disposition un compte de démonstration permettant d’accéder à un aperçu de l’interface (encore en développement), après l’envoi et le traitement d’un fichier d’exemple.
 
