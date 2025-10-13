@@ -21,7 +21,6 @@ J’aime créer des interfaces modernes, soignées et réactives, et explorer le
 Je cherche à progresser chaque jour en construisant des projets clairs, performants et agréables à utiliser.
 ::
 
-
 ::page-section
 ## Mes compétences et mes outils
 
