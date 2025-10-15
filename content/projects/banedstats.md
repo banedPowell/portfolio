@@ -13,16 +13,16 @@ title: banedPowell ⋅ Deezerstats
 
 ::page-section
 ---
-logo: /projects/deezerstats/deezerstats.png
+logo: /projects/banedstats/logo.png
 logo-alt: Logo de Deezerstats
 ---
-# Deezertstats
+# banedStats
 
   :::flex-list
     ::::pill-item
     ---
     icon: i-simple-icons-github
-    link: https://github.com/banedpowell/deezerstats
+    link: https://github.com/banedpowell/banedStats
     target: _blank
     ---
     Repo Github
@@ -31,20 +31,22 @@ logo-alt: Logo de Deezerstats
     ::::pill-item
     ---
     icon: i-lucide-globe
-    link: https://deezerstats.baned.me
+    link: https://stats.baned.me
     target: _blank
     ---
-    Site
+    Site (en maintenance)
     ::::
   :::
 
-DeezerStats est une *application fullstack* dédiée à l’analyse de l’historique d’écoute Deezer pour en extraire des statistiques détaillées.
+*banedStats* est une *application fullstack* dédiée à l’analyse de l’historique d’écoute Deezer pour en extraire des statistiques détaillées.
 
 Ce projet m’a permis d’explorer le traitement de larges fichiers, l'extraction et l'exploitation de ses données, et enfin la restitution de données via une interface intuitive.
 
 Ce projet m’a permis de consolider mes compétences en développement fullstack, en gestion des flux de données, et en conception d’interfaces avec Nuxt.
 
 ## Découvrir et tester l'application
+
+`L'application est actuellement en maintenance`
 
 Comme tout le monde ne possède pas de compte Deezer, j’ai mis à disposition un compte de démonstration permettant d’accéder à un aperçu de l’interface (encore en développement), après l’envoi et le traitement d’un fichier d’exemple.
 
@@ -94,14 +96,15 @@ Concernant le style, j'ai commencé par habitude avec `Scss`. En cours de route 
 
   :::project-illustrations-list
   ---
-  firstIllustration: /projects/deezerstats/home.png
-  firstIllustrationAlt: Screenshot de la page d'accueil
+  firstIllustration: /projects/banedstats/home.png
+  firstIllustrationAlt: Page d'accueil
   firstIllustrationTitle: Page d'accueil
-  secondIllustration: /projects/deezerstats/dashboard.png
-  secondIllustrationAlt: Screenshot du dashboard
+  secondIllustration: /projects/banedstats/dashboard.png
+  secondIllustrationAlt: "Dashboard de l'application avec : statistiques
+    générales, stats par albums, artistes, morceaux"
   secondIllustrationTitle: Dashboard
-  thirdIllustration: /projects/deezerstats/login.png
-  thirdIllustrationAlt: Screenshot de la page de connexion
+  thirdIllustration: /projects/banedstats/login.png
+  thirdIllustrationAlt: Page de connexion
   thirdIllustrationTitle: Connexion
   ---
   :::

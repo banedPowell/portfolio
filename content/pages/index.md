@@ -62,12 +62,12 @@ Je cherche à progresser chaque jour en construisant des projets clairs, perform
   :::grid-list
     ::::project-card
     ---
-    iconAlt: Icone de Deezerstats
-    projectIcon: /projects/deezerstats/deezerstats.png
-    repoUrl: https://github.com/banedpowell/deezerstats.git
-    slug: deezerstats
+    iconAlt: Icone de banedStats
+    projectIcon: /projects/banedStats/logo.png
+    repoUrl: https://github.com/banedpowell/banedStats.git
+    slug: banedstats
     ---
-    #### Deezertstats
+    #### banedStats
     
     Une application pour analyser les statistaiques d'écoutes deezer.
     ::::
