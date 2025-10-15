@@ -63,7 +63,7 @@ Je cherche à progresser chaque jour en construisant des projets clairs, perform
     ::::project-card
     ---
     iconAlt: Icone de banedStats
-    projectIcon: /projects/banedStats/logo.png
+    projectIcon: /projects/banedstats/logo.png
     repoUrl: https://github.com/banedpowell/banedStats.git
     slug: banedstats
     ---
