@@ -179,5 +179,14 @@ Concernant le style, j'ai commencé par habitude avec `Scss`. En cours de route 
     ---
     Linkedin
     ::::
+  
+    ::::pill-item
+    ---
+    icon: simple-icons:malt
+    link: https://www.malt.fr/profile/rubendecarvalho
+    target: _blank
+    ---
+    Malt
+    ::::
   :::
 ::

@@ -113,5 +113,14 @@ J’ai également renforcé mes compétences en conception d’*API RESTful* rob
     ---
     Linkedin
     ::::
+  
+    ::::pill-item
+    ---
+    icon: simple-icons:malt
+    link: https://www.malt.fr/profile/rubendecarvalho
+    target: _blank
+    ---
+    Malt
+    ::::
   :::
 ::

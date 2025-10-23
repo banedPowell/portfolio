@@ -144,5 +144,14 @@ Je cherche à progresser chaque jour en construisant des projets clairs, perform
     ---
     Linkedin
     ::::
+  
+    ::::pill-item
+    ---
+    icon: simple-icons:malt
+    link: https://www.malt.fr/profile/rubendecarvalho
+    target: _blank
+    ---
+    Malt
+    ::::
   :::
 ::

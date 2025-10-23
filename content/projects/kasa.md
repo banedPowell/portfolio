@@ -109,8 +109,8 @@ Cependant, j'ai choisi d'utiliser [`Vite`](https://vite.dev/) un outil que je co
   
     ::::pill-item
     ---
-    icon: ri:linkedin-fill
-    link: https://www.linkedin.com/in/rub%C3%A9ndc/
+    icon: simple-icons:malt
+    link: https://www.malt.fr/profile/rubendecarvalho
     target: _blank
     ---
     Linkedin

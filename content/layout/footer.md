@@ -3,8 +3,20 @@
 **Me retrouver**
 
 #items
+  :::layout-item{icon="simple-icons:bento"}
+  [bento.me](https://bento.me/banedpowell)
+  :::
+
   :::layout-item{icon="ion:logo-github"}
-  [banedPowell](https://github.com/banedPowell)
+  [Github](https://github.com/banedPowell)
+  :::
+
+  :::layout-item{icon="formkit:linkedin"}
+  [Linkedin](https://www.linkedin.com/in/rub%C3%A9ndc/)
+  :::
+
+  :::layout-item{icon="simple-icons:malt"}
+  [Malt](https://www.malt.fr/profile/rubendecarvalho)
   :::
 
   :::layout-item{icon="lucide:mail"}

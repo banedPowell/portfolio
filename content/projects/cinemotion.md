@@ -150,5 +150,14 @@ J’y ai appris à utiliser `Nitro` pour mettre en place un backend et à tirer 
     ---
     Linkedin
     ::::
+  
+    ::::pill-item
+    ---
+    icon: simple-icons:malt
+    link: https://www.malt.fr/profile/rubendecarvalho
+    target: _blank
+    ---
+    Malt
+    ::::
   :::
 ::
