@@ -62,49 +62,45 @@ Je cherche à progresser chaque jour en construisant des projets clairs, perform
   :::grid-list
     ::::project-card
     ---
+    title: banedStats
     iconAlt: Icone de banedStats
     projectIcon: /projects/banedstats/logo.png
     repoUrl: https://github.com/banedpowell/banedStats.git
     slug: banedstats
     ---
-    #### banedStats
-    
     Une application pour analyser les statistaiques d'écoutes deezer.
     ::::
   
     ::::project-card
     ---
+    title: Mon vieux grimoire
     iconAlt: Icone de Mon vieux grimoire
     projectIcon: /projects/grimoire/grimoire.png
     repoUrl: https://github.com/banedpowell/grimoire-frontend.git
     slug: grimoire
     ---
-    #### Mon vieux grimoire
-    
     Une API de référencement et de notation de livres.
     ::::
   
     ::::project-card
     ---
+    title: Cinemotion
     iconAlt: Icone de cinemotion
     projectIcon: /projects/cinemotion/cinemotion.png
     repoUrl: https://github.com/banedpowell/cinemotion.git
     slug: cinemotion
     ---
-    #### Cinemotion
-    
     Un client TMDB développé avec Nuxt 3 et Scss.
     ::::
   
     ::::project-card
     ---
+    title: Kasa
     iconAlt: Icone de Kasa
     projectIcon: /projects/kasa/logo.png
     repoUrl: https://github.com/banedpowell/kasa.git
     slug: kasa
     ---
-    #### Kasa
-    
     Une plateforme *location d’appartements entre particuliers*, développée en React.
     ::::
   :::

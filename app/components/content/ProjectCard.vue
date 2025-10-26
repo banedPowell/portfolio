@@ -1,5 +1,6 @@
 <script lang="ts" setup>
 	const props = defineProps<{
+		title: string;
 		projectIcon: string;
 		iconAlt: string;
 		slug: string;
@@ -27,6 +28,12 @@
 			</div>
 
 			<div class="flex flex-col">
+				<p
+					class="font-display mt-0 mb-1 text-lg font-normal text-gray-300"
+				>
+					{{ title }}
+				</p>
+
 				<slot />
 			</div>
 		</NuxtLink>

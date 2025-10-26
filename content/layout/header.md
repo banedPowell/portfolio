@@ -1,7 +1,9 @@
-::layout-item
-[baned.me](/)
-::
+::header-component
+    :::layout-item
+    [baned.me](/)
+    :::
 
-::layout-item
-[Me contacter](mailto\:contact@baned.me)
+    :::layout-item
+    [Me contacter](mailto:contact@baned.me)
+    :::
 ::

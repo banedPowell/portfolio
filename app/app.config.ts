@@ -9,7 +9,7 @@ export default defineAppConfig({
 			slots: {
 				wrapper: 'text-gray-300',
 				title: 'text-gray-300',
-				description: 'text-gray-500',
+				description: 'text-gray-400',
 			},
 		},
 
@@ -17,7 +17,7 @@ export default defineAppConfig({
 			slots: {
 				wrapper: 'text-gray-300',
 				title: 'text-gray-300',
-				description: 'text-gray-500',
+				description: 'text-gray-400',
 			},
 		},
 
@@ -44,10 +44,10 @@ export default defineAppConfig({
 				},
 			},
 			p: {
-				base: 'my-0 w-full text-gray-500 group-hover/islink:text-gray-300 transition-colors',
+				base: 'my-0 w-full text-gray-400 group-hover/islink:text-gray-300 transition-colors',
 			},
 			a: {
-				base: 'text-gray-500 hover:text-gray-300 border-b-0 font-light group-hover/islink:text-gray-300 transition-colors',
+				base: 'text-gray-400 hover:text-gray-300 border-b-0 font-light group-hover/islink:text-gray-300 transition-colors',
 			},
 		},
 	},

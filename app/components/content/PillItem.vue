@@ -12,7 +12,7 @@
 		<NuxtLink
 			:to="link"
 			:target="target"
-			class="hover:bg-dark-800 group/islink flex w-fit cursor-pointer flex-row items-center gap-2.5 rounded-[10px] p-[5px] pr-8 text-gray-500 transition-colors select-none hover:text-gray-300"
+			class="hover:bg-dark-800 group/islink flex w-fit cursor-pointer flex-row items-center gap-2.5 rounded-[10px] p-[5px] pr-8 text-gray-400 transition-colors select-none hover:text-gray-300"
 			:class="tech ? 'font-mono' : 'font-sans'"
 		>
 			<div
@@ -27,7 +27,7 @@
 
 	<li
 		v-else
-		class="hover:bg-dark-800 group flex w-fit list-none flex-row items-center gap-2.5 rounded-[10px] p-[5px] pr-8 text-gray-500 transition-colors select-none hover:text-gray-300"
+		class="hover:bg-dark-800 group flex w-fit list-none flex-row items-center gap-2.5 rounded-[10px] p-[5px] pr-8 text-gray-400 transition-colors select-none hover:text-gray-300"
 		:class="tech ? 'font-mono' : 'font-sans'"
 	>
 		<div
