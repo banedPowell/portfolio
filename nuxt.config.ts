@@ -40,6 +40,7 @@ export default defineNuxtConfig({
 		'@vueuse/nuxt',
 		'@nuxt/image',
 		'@nuxthub/core',
+		'nuxt-schema-org',
 	],
 
 	content: {

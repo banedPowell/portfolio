@@ -29,6 +29,32 @@
 		],
 	});
 
+	useSchemaOrg([
+		definePerson({
+			name: 'Rubén De Carvalho',
+			url: 'https://baned.me',
+			sameAs: [
+				'https://www.linkedin.com/in/rub%C3%A9ndc/',
+				'https://bento.me/banedpowell',
+				'https://www.malt.fr/profile/rubendecarvalho',
+				'https://github.com/banedPowell',
+				'https://twitter.com/banedpowell',
+				'https://www.instagram.com/banedPowell',
+			],
+			image: '/baned.png',
+			jobTitle: 'Développeur web Fullstack',
+		}),
+		defineWebSite({
+			url: 'https://baned.me',
+			name: 'banedPowell • Portfolio',
+			description: () => page?.value?.seo?.description,
+			image: '/seo.png',
+			publisher: {
+				value: 'banedPowell',
+			},
+		}),
+	]);
+
 	definePageMeta({
 		colorMode: 'dark',
 	});
