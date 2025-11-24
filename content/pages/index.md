@@ -1,10 +1,8 @@
 ---
 title: banedPowell • Portfolio
-description: Développeur web Fullstack. Je travaille avec Nuxt, Typescript et
-  Postgres. J'ai suivi le parcours Développeur Web d'Openclassrooms
+description: "Développeur web Fullstack spécialisé en Nuxt, Vue, Typescript et Node.js. Services : création de sites web, développement d'applications, SEO, maquettes Figma, optimisation, maintenance et analyse de statistiques."
 seo:
-  description: Développeur web Fullstack. Je travaille avec Nuxt, Typescript et
-    Postgres. J'ai suivi le parcours Développeur Web d'Openclassrooms
+  description: "Développeur web Fullstack spécialisé en Nuxt, Vue, Typescript et Node.js. Services : création de sites web, développement d'applications, SEO, maquettes Figma, optimisation, maintenance et analyse de statistiques."
   title: banedPowell • Portfolio
   image: /seo.png
   url: https://baned.me
@@ -58,7 +56,6 @@ Je cherche à progresser chaque jour en construisant des projets clairs, perform
 
 ::page-section
 ## Mes services
-Des solutions sur-mesure pour accompagner la transformation et l’efficacité de votre activité en ligne
 
   :::grid-list
     ::::service-card
@@ -66,6 +63,7 @@ Des solutions sur-mesure pour accompagner la transformation et l’efficacité d
     title: Création de Sites Web
     description: Renforcez votre présence en ligne avec un site web sur mesure qui reflète votre identité et attire vos clients. (Site vitrine, blog, portfolio, etc.)
     icon: lucide:globe
+    accentColor: "#757575"
     ---
     ::::
 
@@ -74,6 +72,7 @@ Des solutions sur-mesure pour accompagner la transformation et l’efficacité d
     title: Développement d'applications web
     description: Automatisez vos processus, développez votre propre service en ligne et connectez vos outils pour gagner du temps et améliorer votre productivité.
     icon: lucide:atom
+    accentColor: "#5795b9"
     ---
     ::::
 
@@ -82,6 +81,7 @@ Des solutions sur-mesure pour accompagner la transformation et l’efficacité d
     title: Optimisation SEO
     description: Améliorez votre visibilité sur les moteurs de recherche pour attirer plus de visiteurs qualifiés vers votre site.
     icon: lucide:trending-up
+    accentColor: "#c98686"
     ---
     ::::
 
@@ -90,6 +90,7 @@ Des solutions sur-mesure pour accompagner la transformation et l’efficacité d
     title: Conception de maquettes
     description: Visualisez votre projet avant le développement avec des maquettes interactives qui guident la création de votre site.
     icon: lucide:palette
+    accentColor: "#bf7be1"
     ---
     ::::
 
@@ -98,6 +99,7 @@ Des solutions sur-mesure pour accompagner la transformation et l’efficacité d
     title: Optimisation et maintenance
     description: Améliorez les performances de votre site, corrigez les problèmes et maintenez vos outils à jour pour garantir sécurité et stabilité.
     icon: lucide:zap
+    accentColor: "#7be1c1"
     ---
     ::::
 
@@ -106,6 +108,7 @@ Des solutions sur-mesure pour accompagner la transformation et l’efficacité d
     title: Publication et déploiement
     description: Mettez votre site en ligne de manière professionnelle et sécurisée, prêt à accueillir vos visiteurs.
     icon: lucide:rocket
+    accentColor: "#db5f5f"
     ---
     ::::
 
@@ -114,6 +117,7 @@ Des solutions sur-mesure pour accompagner la transformation et l’efficacité d
     title: Analyse et statistiques
     description: Comprenez le comportement de vos visiteurs avec des outils d'analyse détaillés pour prendre des décisions éclairées.
     icon: lucide:bar-chart
+    accentColor: "#a5b162"
     ---
     ::::
   :::
