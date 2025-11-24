@@ -57,6 +57,69 @@ Je cherche à progresser chaque jour en construisant des projets clairs, perform
 ::
 
 ::page-section
+## Mes services
+Des solutions sur-mesure pour accompagner la transformation et l’efficacité de votre activité en ligne
+
+  :::grid-list
+    ::::service-card
+    ---
+    title: Création de Sites Web
+    description: Renforcez votre présence en ligne avec un site web sur mesure qui reflète votre identité et attire vos clients. (Site vitrine, blog, portfolio, etc.)
+    icon: lucide:globe
+    ---
+    ::::
+
+    ::::service-card
+    ---
+    title: Développement d'applications web
+    description: Automatisez vos processus, développez votre propre service en ligne et connectez vos outils pour gagner du temps et améliorer votre productivité.
+    icon: lucide:atom
+    ---
+    ::::
+
+    ::::service-card
+    ---
+    title: Optimisation SEO
+    description: Améliorez votre visibilité sur les moteurs de recherche pour attirer plus de visiteurs qualifiés vers votre site.
+    icon: lucide:trending-up
+    ---
+    ::::
+
+    ::::service-card
+    ---
+    title: Conception de maquettes
+    description: Visualisez votre projet avant le développement avec des maquettes interactives qui guident la création de votre site.
+    icon: lucide:palette
+    ---
+    ::::
+
+    ::::service-card
+    ---
+    title: Optimisation et maintenance
+    description: Améliorez les performances de votre site, corrigez les problèmes et maintenez vos outils à jour pour garantir sécurité et stabilité.
+    icon: lucide:zap
+    ---
+    ::::
+
+    ::::service-card
+    ---
+    title: Publication et déploiement
+    description: Mettez votre site en ligne de manière professionnelle et sécurisée, prêt à accueillir vos visiteurs.
+    icon: lucide:rocket
+    ---
+    ::::
+
+    ::::service-card
+    ---
+    title: Analyse et statistiques
+    description: Comprenez le comportement de vos visiteurs avec des outils d'analyse détaillés pour prendre des décisions éclairées.
+    icon: lucide:bar-chart
+    ---
+    ::::
+  :::
+::
+
+::page-section
 ## Mes projets
 
   :::grid-list
