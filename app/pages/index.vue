@@ -16,6 +16,36 @@
 		twitterCreator: '@banedpowell',
 	});
 
+	useSchemaOrg([
+		definePerson({
+			name: 'banedPowell',
+			url: 'https://baned.me',
+			description:
+				"Développeur web Fullstack spécialisé en Nuxt, Vue, Typescript et Node.js. Services : création de sites web, développement d'applications, SEO, maquettes Figma, optimisation, maintenance et analyse de statistiques.",
+			jobTitle: 'Développeur web Fullstack',
+			image: '/baned.png',
+
+			sameAs: [
+				'https://www.linkedin.com/in/rub%C3%A9ndc/',
+				'https://bento.me/banedpowell',
+				'https://www.malt.fr/profile/rubendecarvalho',
+				'https://github.com/banedPowell',
+				'https://twitter.com/banedpowell',
+				'https://www.instagram.com/banedPowell',
+				'mailto:contact@baned.me',
+			],
+		}),
+		defineWebSite({
+			url: 'https://baned.me',
+			name: 'banedPowell • Portfolio',
+			description: () => page?.value?.seo?.description,
+			image: '/seo.png',
+			publisher: {
+				value: 'banedPowell',
+			},
+		}),
+	]);
+
 	useHead({
 		htmlAttrs: {
 			lang: page?.value?.seo?.locale,
