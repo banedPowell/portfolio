@@ -1,8 +1,12 @@
 ---
 title: banedPowell • Portfolio
-description: "Développeur web Fullstack basé en région parisienne, spécialisé en Nuxt, Vue, Typescript et Node.js. Création de sites modernes, applications web, SEO, maintenance et analyse."
+description: Développeur web Fullstack basé en région parisienne, spécialisé en
+  Nuxt, Vue, Typescript et Node.js. Création de sites modernes, applications
+  web, SEO, maintenance et analyse.
 seo:
-  description: "Développeur web Fullstack basé en région parisienne, spécialisé en Nuxt, Vue, Typescript et Node.js. Création de sites modernes, applications web, SEO, maintenance et analyse."
+  description: Développeur web Fullstack basé en région parisienne, spécialisé en
+    Nuxt, Vue, Typescript et Node.js. Création de sites modernes, applications
+    web, SEO, maintenance et analyse.
   title: banedPowell • Portfolio
   image: /seo.png
   url: https://baned.me
@@ -60,64 +64,72 @@ Je cherche à progresser chaque jour en construisant des projets clairs, perform
   :::grid-list
     ::::service-card
     ---
-    title: Création de Sites Web
-    description: Renforcez votre présence en ligne avec un site web sur mesure qui reflète votre identité et attire vos clients. (Site vitrine, blog, portfolio, etc.)
-    icon: lucide:globe
     accentColor: "#757575"
+    description: Renforcez votre présence en ligne avec un site web sur mesure qui
+      reflète votre identité et attire vos clients. (Site vitrine, blog, portfolio,
+      etc.)
+    icon: lucide:globe
+    title: Création de Sites Web
     ---
     ::::
-
+  
     ::::service-card
     ---
-    title: Développement d'applications web
-    description: Automatisez vos processus, développez votre propre service en ligne et connectez vos outils pour gagner du temps et améliorer votre productivité.
-    icon: lucide:atom
     accentColor: "#5795b9"
+    description: Automatisez vos processus, développez votre propre service en ligne
+      et connectez vos outils pour gagner du temps et améliorer votre productivité.
+    icon: lucide:atom
+    title: Développement d'applications web
     ---
     ::::
-
+  
     ::::service-card
     ---
-    title: Optimisation SEO
-    description: Améliorez votre visibilité sur les moteurs de recherche pour attirer plus de visiteurs qualifiés vers votre site.
-    icon: lucide:trending-up
     accentColor: "#c98686"
+    description: Améliorez votre visibilité sur les moteurs de recherche pour
+      attirer plus de visiteurs qualifiés vers votre site.
+    icon: lucide:trending-up
+    title: Optimisation SEO
     ---
     ::::
-
+  
     ::::service-card
     ---
-    title: Conception de maquettes
-    description: Visualisez votre projet avant le développement avec des maquettes interactives qui guident la création de votre site.
-    icon: lucide:palette
     accentColor: "#bf7be1"
+    description: Visualisez votre projet avant le développement avec des maquettes
+      interactives qui guident la création de votre site.
+    icon: lucide:palette
+    title: Conception de maquettes
     ---
     ::::
-
+  
     ::::service-card
     ---
-    title: Optimisation et maintenance
-    description: Améliorez les performances de votre site, corrigez les problèmes et maintenez vos outils à jour pour garantir sécurité et stabilité.
-    icon: lucide:zap
     accentColor: "#7be1c1"
+    description: Améliorez les performances de votre site, corrigez les problèmes et
+      maintenez vos outils à jour pour garantir sécurité et stabilité.
+    icon: lucide:zap
+    title: Optimisation et maintenance
     ---
     ::::
-
+  
     ::::service-card
     ---
-    title: Publication et déploiement
-    description: Mettez votre site en ligne de manière professionnelle et sécurisée, prêt à accueillir vos visiteurs.
-    icon: lucide:rocket
     accentColor: "#db5f5f"
+    description: Mettez votre site en ligne de manière professionnelle et sécurisée,
+      prêt à accueillir vos visiteurs.
+    icon: lucide:rocket
+    title: Publication et déploiement
     ---
     ::::
-
+  
     ::::service-card
     ---
-    title: Analyse et statistiques
-    description: Comprenez le comportement de vos visiteurs avec des outils d'analyse détaillés pour prendre des décisions éclairées.
-    icon: lucide:bar-chart
     accentColor: "#a5b162"
+    description: Comprenez le comportement de vos visiteurs avec des outils
+      d'analyse détaillés pour prendre des décisions éclairées.
+    icon: lucide:bar-chart
+    title: Analyse et statistiques
     ---
     ::::
   :::
@@ -129,44 +141,54 @@ Je cherche à progresser chaque jour en construisant des projets clairs, perform
   :::grid-list
     ::::project-card
     ---
-    title: banedStats
+    iconAlt: Icone de lesensdelhistoire.org
+    projectIcon: /projects/LeSensDeLHistoire/favicon.png
+    slug: le-sens-de-l-histoire
+    title: Le sens de l'Histoire
+    ---
+    Un site éditorial accueillant des articles variés mêlant histoire, culture, société, féminisme ou encore tourisme.
+    ::::
+  
+    ::::project-card
+    ---
     iconAlt: Icone de banedStats
     projectIcon: /projects/banedstats/logo.png
     repoUrl: https://github.com/banedpowell/banedStats.git
     slug: banedstats
+    title: banedStats
     ---
     Une application pour analyser les statistaiques d'écoutes deezer.
     ::::
   
     ::::project-card
     ---
-    title: Mon vieux grimoire
     iconAlt: Icone de Mon vieux grimoire
     projectIcon: /projects/grimoire/grimoire.png
     repoUrl: https://github.com/banedpowell/grimoire-frontend.git
     slug: grimoire
+    title: Mon vieux grimoire
     ---
     Une API de référencement et de notation de livres.
     ::::
   
     ::::project-card
     ---
-    title: Cinemotion
     iconAlt: Icone de cinemotion
     projectIcon: /projects/cinemotion/cinemotion.png
     repoUrl: https://github.com/banedpowell/cinemotion.git
     slug: cinemotion
+    title: Cinemotion
     ---
     Un client TMDB développé avec Nuxt 3 et Scss.
     ::::
   
     ::::project-card
     ---
-    title: Kasa
     iconAlt: Icone de Kasa
     projectIcon: /projects/kasa/logo.png
     repoUrl: https://github.com/banedpowell/kasa.git
     slug: kasa
+    title: Kasa
     ---
     Une plateforme *location d’appartements entre particuliers*, développée en React.
     ::::
