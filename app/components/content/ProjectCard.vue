@@ -9,7 +9,7 @@
 </script>
 
 <template>
-	<li class="group relative">
+	<li class="group relative h-full">
 		<Icon
 			name="lucide:arrow-up-right"
 			class="absolute top-5 right-5 transition-transform group-hover:translate-x-1 group-hover:-translate-y-1"
@@ -17,7 +17,7 @@
 
 		<NuxtLink
 			:to="`/projects/${slug}`"
-			class="border-dark-800 hover:border-dark-600 flex w-full flex-col gap-3 rounded-xl border-2 p-5 transition-colors"
+			class="border-dark-800 hover:border-dark-600 flex h-full w-full flex-col gap-3 rounded-xl border-2 p-5 transition-colors"
 		>
 			<div class="flex w-full flex-row items-center justify-between">
 				<NuxtImg
