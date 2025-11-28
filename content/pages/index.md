@@ -1,8 +1,8 @@
 ---
 title: banedPowell • Portfolio
-description: "Développeur web Fullstack spécialisé en Nuxt, Vue, Typescript et Node.js. Services : création de sites web, développement d'applications, SEO, maquettes Figma, optimisation, maintenance et analyse de statistiques."
+description: "Développeur web Fullstack basé en région parisienne, spécialisé en Nuxt, Vue, Typescript et Node.js. Création de sites modernes, applications web, SEO, maintenance et analyse."
 seo:
-  description: "Développeur web Fullstack spécialisé en Nuxt, Vue, Typescript et Node.js. Services : création de sites web, développement d'applications, SEO, maquettes Figma, optimisation, maintenance et analyse de statistiques."
+  description: "Développeur web Fullstack basé en région parisienne, spécialisé en Nuxt, Vue, Typescript et Node.js. Création de sites modernes, applications web, SEO, maintenance et analyse."
   title: banedPowell • Portfolio
   image: /seo.png
   url: https://baned.me
