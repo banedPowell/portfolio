@@ -47,7 +47,7 @@ export default defineAppConfig({
 				base: 'my-0 w-full text-gray-400 group-hover/islink:text-gray-300 transition-colors',
 			},
 			strong: {
-				base: 'my-0 w-full text-gray-400 font-semibold transition-colors',
+				base: 'my-0 w-full text-gray-400 font-medium transition-colors',
 			},
 			a: {
 				base: 'text-gray-400 hover:text-gray-300 border-b-0 font-light group-hover/islink:text-gray-300 transition-colors',
