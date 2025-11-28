@@ -33,16 +33,8 @@
 				'https://www.instagram.com/banedPowell',
 				'mailto:contact@baned.me',
 			],
-			adress: 'Paris, France',
 			email: 'contact@baned.me',
 			worksFor: 'Rubén De Carvalho',
-		}),
-
-		defineWebSite({
-			url: 'https://baned.me',
-			name: 'banedPowell • Portfolio',
-			description: () => page?.value?.seo?.description,
-			image: '/seo.png',
 		}),
 
 		defineQuestion({
