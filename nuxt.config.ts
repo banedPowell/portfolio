@@ -65,4 +65,17 @@ export default defineNuxtConfig({
 			repo: 'portfolio',
 		},
 	},
+
+	vite: {
+		build: {
+			rollupOptions: {
+				external: ['sqlite3'], // verify 'sqlite3' exists in package.json first
+			},
+		},
+	},
+	nitro: {
+		externals: {
+			external: ['sqlite3'], // also prevent Nitro from bundling it
+		},
+	},
 });
