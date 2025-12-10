@@ -19,18 +19,6 @@ export default defineNuxtConfig({
 					c.global = true;
 				}
 			});
-
-			components.forEach((c: any) => {
-				if (c.pascalName && c.pascalName.startsWith('U')) {
-					c.global = true;
-				}
-			});
-		},
-	},
-
-	nitro: {
-		experimental: {
-			openAPI: true,
 		},
 	},
 
