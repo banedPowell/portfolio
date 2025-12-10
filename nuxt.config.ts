@@ -41,6 +41,7 @@ export default defineNuxtConfig({
 		'@nuxt/image',
 		'@nuxthub/core',
 		'nuxt-schema-org',
+		'nuxt-studio',
 	],
 
 	content: {
@@ -66,6 +67,14 @@ export default defineNuxtConfig({
 		preview: {
 			api: 'https://api.nuxt.studio',
 			dev: true,
+		},
+	},
+
+	studio: {
+		repository: {
+			provider: 'github',
+			owner: 'banedPowell',
+			repo: 'portfolio',
 		},
 	},
 });
