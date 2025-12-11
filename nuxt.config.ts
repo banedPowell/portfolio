@@ -17,7 +17,6 @@ export default defineNuxtConfig({
 		'@nuxt/content',
 		'@vueuse/nuxt',
 		'@nuxt/image',
-		'@nuxthub/core',
 		'nuxt-schema-org',
 		'nuxt-studio',
 	],
@@ -56,16 +55,7 @@ export default defineNuxtConfig({
 		},
 	},
 
-	vite: {
-		build: {
-			rollupOptions: {
-				external: ['sqlite3'], // verify 'sqlite3' exists in package.json first
-			},
-		},
-	},
 	nitro: {
-		externals: {
-			external: ['sqlite3'], // also prevent Nitro from bundling it
-		},
+		preset: 'node-server',
 	},
 });
