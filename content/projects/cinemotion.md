@@ -1,4 +1,10 @@
 ---
+position: 3
+card:
+  title: Cinemotion
+  description: Un client TMDB développé avec Nuxt 3 et Scss.
+  projectIcon: /projects/cinemotion/cinemotion.png
+  iconAlt: Icone de Cinemotion
 seo:
   locale: fr-FR
   url: https://baned.me/projects/cinemotion
@@ -113,51 +119,5 @@ J’y ai appris à utiliser `Nitro` pour mettre en place un backend et à tirer 
       icon: lucide:user-cog
   orientation: vertical
   ---
-  :::
-::
-
-::page-section
-## Me retrouver
-
-  :::grid-list
-    ::::pill-item
-    ---
-    icon: i-simple-icons-bento
-    link: https://bento.me/banedpowell/
-    target: _blank
-    ---
-    Mon profil bento.me
-    ::::
-  
-    ::::pill-item
-    ---
-    icon: ion:logo-github
-    link: https://github.com/banedPowell/
-    target: _blank
-    ---
-    Mon github
-    ::::
-  
-    ::::pill-item{icon="i-lucide-mail" link="mailto:contact@baned.me"}
-    <contact@baned.me>
-    ::::
-  
-    ::::pill-item
-    ---
-    icon: ri:linkedin-fill
-    link: https://www.linkedin.com/in/rub%C3%A9ndc/
-    target: _blank
-    ---
-    Linkedin
-    ::::
-  
-    ::::pill-item
-    ---
-    icon: simple-icons:malt
-    link: https://www.malt.fr/profile/rubendecarvalho
-    target: _blank
-    ---
-    Malt
-    ::::
   :::
 ::

@@ -1,4 +1,10 @@
 ---
+position: 1
+card:
+  title: Le sens de l'Histoire
+  description: Un site éditorial accueillant des articles variés mêlant histoire, culture, société, féminisme ou encore tourisme.
+  projectIcon: /projects/lesensdelhistoire/favicon.png
+  iconAlt: Icone de lesensdelhistoire.org
 seo:
   locale: fr-FR
   url: https://baned.me/projects/lesensdelhistoire
@@ -72,50 +78,4 @@ Le site est construit avec `Nuxt 4`, utilisant notamment les modules `Nuxt Conte
 Pour maximiser la visibilité naturelle, j’ai mis en place un balisage sémantique conforme à `Schema.org`, ce qui aide les moteurs de recherche à comprendre précisément la structure des articles. Ce type de données peut contribuer à l’affichage de « **rich snippets** » dans les résultats de recherche, **augmentant le taux de clic**.
 
 Enfin, pour fournir au client une vision claire de l’audience et du comportement des visiteurs, j’ai intégré `PostHog`, afin de **suivre les pages vues**, les sessions, les chemins de navigation, le taux de rebond et d’autres données d’usage importantes, ce qui permet d’adapter le contenu et d’optimiser l’expérience utilisateur.
-::
-
-::page-section
-## Me retrouver
-
-  :::grid-list
-    ::::pill-item
-    ---
-    icon: i-simple-icons-bento
-    link: https://bento.me/banedpowell/
-    target: _blank
-    ---
-    Mon profil bento.me
-    ::::
-  
-    ::::pill-item
-    ---
-    icon: ion:logo-github
-    link: https://github.com/banedPowell/
-    target: _blank
-    ---
-    Mon github
-    ::::
-  
-    ::::pill-item{icon="i-lucide-mail" link="mailto:contact@baned.me"}
-    <contact@baned.me>
-    ::::
-  
-    ::::pill-item
-    ---
-    icon: ri:linkedin-fill
-    link: https://www.linkedin.com/in/rub%C3%A9ndc/
-    target: _blank
-    ---
-    Linkedin
-    ::::
-  
-    ::::pill-item
-    ---
-    icon: simple-icons:malt
-    link: https://www.malt.fr/profile/rubendecarvalho
-    target: _blank
-    ---
-    Malt
-    ::::
-  :::
 ::

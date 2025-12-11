@@ -1,4 +1,10 @@
 ---
+position: 2
+card:
+  title: banedStats
+  description: Une application pour analyser les statistaiques d'écoutes deezer.
+  projectIcon: /projects/banedstats/logo.png
+  iconAlt: Icone de banedStats
 seo:
   locale: fr-FR
   url: https://baned.me/projects/deezerstats
@@ -142,51 +148,5 @@ Concernant le style, j'ai commencé par habitude avec `Scss`. En cours de route 
       icon: i-lucide-refresh-cw
   orientation: vertical
   ---
-  :::
-::
-
-::page-section
-## Me retrouver
-
-  :::grid-list
-    ::::pill-item
-    ---
-    icon: i-simple-icons-bento
-    link: https://bento.me/banedpowell/
-    target: _blank
-    ---
-    Mon profil bento.me
-    ::::
-  
-    ::::pill-item
-    ---
-    icon: ion:logo-github
-    link: https://github.com/banedPowell/
-    target: _blank
-    ---
-    Mon github
-    ::::
-  
-    ::::pill-item{icon="i-lucide-mail" link="mailto:contact@baned.me"}
-    <contact@baned.me>
-    ::::
-  
-    ::::pill-item
-    ---
-    icon: ri:linkedin-fill
-    link: https://www.linkedin.com/in/rub%C3%A9ndc/
-    target: _blank
-    ---
-    Linkedin
-    ::::
-  
-    ::::pill-item
-    ---
-    icon: simple-icons:malt
-    link: https://www.malt.fr/profile/rubendecarvalho
-    target: _blank
-    ---
-    Malt
-    ::::
   :::
 ::

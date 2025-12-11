@@ -1,10 +1,11 @@
 <script lang="ts" setup>
 	const props = defineProps<{
 		title: string;
+		description: string;
 		projectIcon: string;
 		iconAlt: string;
 		slug: string;
-		repoUrl: string;
+		repoUrl?: string;
 	}>();
 </script>
 
@@ -16,7 +17,7 @@
 		/>
 
 		<NuxtLink
-			:to="`/projects/${slug}`"
+			:to="slug"
 			class="border-dark-800 hover:border-dark-600 flex h-full w-full flex-col gap-3 rounded-xl border-2 p-5 transition-colors"
 		>
 			<div class="flex w-full flex-row items-center justify-between">
@@ -34,7 +35,11 @@
 					{{ title }}
 				</p>
 
-				<slot />
+				<p
+					class="my-0 w-full text-gray-400 transition-colors group-hover/islink:text-gray-300"
+				>
+					{{ description }}
+				</p>
 			</div>
 		</NuxtLink>
 	</li>

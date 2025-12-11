@@ -23,12 +23,10 @@
 			<slot />
 		</UMain>
 
-		<FooterComponent>
-			<ContentRenderer
-				v-if="footer"
-				:value="footer"
-				class="flex w-full flex-col gap-20 text-sm sm:flex-row"
-			/>
-		</FooterComponent>
+		<ContentRenderer
+			v-if="footer"
+			:value="footer"
+			class="mt-15 flex h-fit w-full flex-col items-center gap-30 p-5 md:mt-0"
+		/>
 	</div>
 </template>

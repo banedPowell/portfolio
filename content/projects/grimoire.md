@@ -1,4 +1,10 @@
 ---
+position: 4
+card:
+  title: Mon vieux grimoire
+  description: Une API de référencement et de notation de livres.
+  projectIcon: /projects/grimoire/grimoire.png
+  iconAlt: Icone de Mon vieux grimoire
 description: "Découvrez mon projet Mon vieux grimoire : une API de référencement
   et de notation de livres"
 title: banedPowell • Mon vieux grimoire
@@ -76,51 +82,5 @@ J’ai également renforcé mes compétences en conception d’*API RESTful* rob
   thirdIllustrationAlt: Page de détails d'un livre de Mon vieux grimoire
   thirdIllustrationTitle: Détails
   ---
-  :::
-::
-
-::page-section
-## Me retrouver
-
-  :::grid-list
-    ::::pill-item
-    ---
-    icon: i-simple-icons-bento
-    link: https://bento.me/banedpowell/
-    target: _blank
-    ---
-    Mon profil bento.me
-    ::::
-  
-    ::::pill-item
-    ---
-    icon: ion:logo-github
-    link: https://github.com/banedPowell/
-    target: _blank
-    ---
-    Mon github
-    ::::
-  
-    ::::pill-item{icon="i-lucide-mail" link="mailto:contact@baned.me"}
-    <contact@baned.me>
-    ::::
-  
-    ::::pill-item
-    ---
-    icon: ri:linkedin-fill
-    link: https://www.linkedin.com/in/rub%C3%A9ndc/
-    target: _blank
-    ---
-    Linkedin
-    ::::
-  
-    ::::pill-item
-    ---
-    icon: simple-icons:malt
-    link: https://www.malt.fr/profile/rubendecarvalho
-    target: _blank
-    ---
-    Malt
-    ::::
   :::
 ::

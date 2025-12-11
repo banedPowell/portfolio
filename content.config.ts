@@ -25,6 +25,13 @@ export default defineContentConfig({
 			type: 'page',
 			source: 'projects/*.md',
 			schema: z.object({
+				position: z.number(),
+				card: z.object({
+					title: z.string(),
+					description: z.string(),
+					projectIcon: z.string(),
+					iconAlt: z.string(),
+				}),
 				seo: z.object({
 					title: z.string(),
 					description: z.string(),

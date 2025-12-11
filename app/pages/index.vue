@@ -3,6 +3,10 @@
 		return queryCollection('pages').path('/pages/').first();
 	});
 
+	const { data: projects } = await useAsyncData('projects', () =>
+		queryCollection('projects').order('position', 'ASC').all(),
+	);
+
 	useSeoMeta({
 		ogTitle: page?.value?.seo?.title,
 		description: page?.value?.seo?.description,
@@ -108,7 +112,7 @@
 </script>
 
 <template>
-	<div class="hidden text-red-400">
+	<div class="hidden max-w-[760px] text-red-400">
 		To activate some tailwind classes, add them to this hidden div
 	</div>
 
@@ -117,4 +121,24 @@
 		v-if="page"
 		:value="page"
 	/>
+
+	<div class="flex w-full flex-col gap-20">
+		<PageSection>
+			<h2 class="font-display text-2xl font-normal text-gray-300">
+				Mes projets
+			</h2>
+
+			<GridList>
+				<ProjectCard
+					v-for="project in projects"
+					:key="project.title"
+					:title="project.card.title"
+					:description="project.card.description"
+					:projectIcon="project.card.projectIcon"
+					:iconAlt="project.card.iconAlt"
+					:slug="project.path"
+				/>
+			</GridList>
+		</PageSection>
+	</div>
 </template>

@@ -1,4 +1,10 @@
 ---
+position: 5
+card:
+  title: Kasa
+  description: Une plateforme location d’appartements entre particuliers, développée en React. 
+  projectIcon: /projects/kasa/logo.png
+  iconAlt: Icone de Kasa
 seo:
   locale: fr-FR
   url: https://baned.me/projects/kasa
@@ -78,42 +84,5 @@ Cependant, j'ai choisi d'utiliser [`Vite`](https://vite.dev/) un outil que je co
   thirdIllustrationAlt: Page "à propos"
   thirdIllustrationTitle: A propos
   ---
-  :::
-::
-
-::page-section
-## Me retrouver
-
-  :::grid-list
-    ::::pill-item
-    ---
-    icon: i-simple-icons-bento
-    link: https://bento.me/banedpowell/
-    target: _blank
-    ---
-    Mon profil bento.me
-    ::::
-  
-    ::::pill-item
-    ---
-    icon: ion:logo-github
-    link: https://github.com/banedPowell/
-    target: _blank
-    ---
-    Mon github
-    ::::
-  
-    ::::pill-item{icon="i-lucide-mail" link="mailto:contact@baned.me"}
-    <contact@baned.me>
-    ::::
-  
-    ::::pill-item
-    ---
-    icon: simple-icons:malt
-    link: https://www.malt.fr/profile/rubendecarvalho
-    target: _blank
-    ---
-    Linkedin
-    ::::
   :::
 ::

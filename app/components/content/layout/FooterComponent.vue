@@ -6,6 +6,8 @@
 	>
 		<USeparator class="w-full" />
 
-		<slot />
+		<div class="flex w-full flex-col gap-20 text-sm sm:flex-row">
+			<slot />
+		</div>
 	</footer>
 </template>
