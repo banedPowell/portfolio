@@ -12,16 +12,6 @@ export default defineNuxtConfig({
 
 	css: ['~/assets/css/main.css'],
 
-	hooks: {
-		'components:extend': (components: any) => {
-			components.forEach((c: any) => {
-				if (c.filePath && c.filePath.includes('/components/content/')) {
-					c.global = true;
-				}
-			});
-		},
-	},
-
 	modules: [
 		'@nuxt/ui',
 		'@nuxt/content',
