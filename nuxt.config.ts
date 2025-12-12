@@ -54,8 +54,4 @@ export default defineNuxtConfig({
 			repo: 'portfolio',
 		},
 	},
-
-	nitro: {
-		preset: 'node-server',
-	},
 });
