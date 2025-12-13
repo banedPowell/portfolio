@@ -32,4 +32,4 @@ jobs:
       - name: Build & Deploy to NuxtHub
         uses: nuxt-hub/action@v2
         with:
-          project-key: portfolio-e2rf
+          project-key: portfolio-szoq
