@@ -19,6 +19,7 @@ export default defineNuxtConfig({
 		'@nuxt/image',
 		'nuxt-schema-org',
 		'nuxt-studio',
+		'@nuxthub/core',
 	],
 
 	content: {
