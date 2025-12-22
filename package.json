@@ -6,8 +6,9 @@
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
-    "preview": "nuxt preview"
-  }, 
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
   "dependencies": {
     "@nuxt/content": "3.9.0",
     "@nuxt/hints": "1.0.0-alpha.4",
