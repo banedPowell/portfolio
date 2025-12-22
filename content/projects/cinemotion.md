@@ -3,7 +3,7 @@ position: 3
 card:
   title: Cinemotion
   description: Un client TMDB développé avec Nuxt 3 et Scss.
-  projectIcon: /projects/cinemotion/cinemotion.png
+  projectIcon: /projects/cinemotion/logo.png
   iconAlt: Icone de Cinemotion
 seo:
   locale: fr-FR
@@ -17,7 +17,7 @@ title: banedPowell ⋅ Cinemotion
 
 ::page-section
 ---
-logo: /projects/cinemotion/cinemotion.png
+logo: /projects/cinemotion/logo.png
 logo-alt: Logo de Deezerstats
 ---
 # Cinemotion

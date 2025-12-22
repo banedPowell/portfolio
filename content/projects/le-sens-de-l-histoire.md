@@ -3,7 +3,7 @@ position: 1
 card:
   title: Le sens de l'Histoire
   description: Un site éditorial accueillant des articles variés mêlant histoire, culture, société, féminisme ou encore tourisme.
-  projectIcon: /projects/lesensdelhistoire/favicon.png
+  projectIcon: /projects/lesensdelhistoire/logo.png
   iconAlt: Icone de lesensdelhistoire.org
 seo:
   locale: fr-FR
@@ -13,15 +13,15 @@ seo:
   description: Découvrez « Le sens de l’Histoire », un site éditorial dédié à
     l’analyse historique, socioculturelle et politique à travers des articles
     engagés et complets.
+title: banedPowell ⋅ Le sens de l'Histoire
 description: Découvrez « Le sens de l’Histoire », un site éditorial dédié à
   l’analyse historique, socioculturelle et politique à travers des articles
   engagés et complets.
-title: banedPowell ⋅ Le sens de l'Histoire
 ---
 
 ::page-section
 ---
-logo: /projects/LeSensDeLHistoire/favicon.png
+logo: /projects/LeSensDeLHistoire/logo.png
 logo-alt: Logo de Deezerstats
 ---
 # Le sens de l'Histoire

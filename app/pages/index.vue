@@ -112,33 +112,35 @@
 </script>
 
 <template>
-	<div class="hidden max-w-[760px] text-red-400">
+	<div class="mt-20 hidden max-w-[800px] text-red-400">
 		To activate some tailwind classes, add them to this hidden div
 	</div>
 
-	<ContentRenderer
-		class="flex w-full flex-col gap-20"
-		v-if="page"
-		:value="page"
-	/>
+	<UPage class="w-full max-w-[800px]">
+		<UContainer class="flex flex-col gap-20 px-0 sm:px-0 lg:px-0">
+			<ContentRenderer
+				class="flex w-full flex-col gap-20"
+				v-if="page"
+				:value="page"
+			/>
 
-	<div class="flex w-full flex-col gap-20">
-		<PageSection>
-			<h2 class="font-display text-2xl font-normal text-gray-300">
-				Mes projets
-			</h2>
+			<PageSection>
+				<h2 class="font-display text-2xl font-normal text-gray-300">
+					Mes projets
+				</h2>
 
-			<GridList>
-				<ProjectCard
-					v-for="project in projects"
-					:key="project.title"
-					:title="project.card.title"
-					:description="project.card.description"
-					:projectIcon="project.card.projectIcon"
-					:iconAlt="project.card.iconAlt"
-					:slug="project.path"
-				/>
-			</GridList>
-		</PageSection>
-	</div>
+				<GridList>
+					<ProjectCard
+						v-for="project in projects"
+						:key="project.title"
+						:title="project.card.title"
+						:description="project.card.description"
+						:projectIcon="project.card.projectIcon"
+						:iconAlt="project.card.iconAlt"
+						:slug="project.path"
+					/>
+				</GridList>
+			</PageSection>
+		</UContainer>
+	</UPage>
 </template>
