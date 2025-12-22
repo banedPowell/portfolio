@@ -15,10 +15,11 @@ export default defineNuxtConfig({
 	modules: [
 		'@nuxt/ui',
 		'@nuxt/content',
-		'@vueuse/nuxt',
-		'@nuxt/image',
-		'nuxt-schema-org',
+		'@nuxt/hints',
 		'nuxt-studio',
+		'@nuxt/image',
+		'@vueuse/nuxt',
+		'nuxt-schema-org',
 	],
 
 	content: {
@@ -39,11 +40,6 @@ export default defineNuxtConfig({
 				h5: false,
 				h6: false,
 			},
-		},
-
-		preview: {
-			api: 'https://api.nuxt.studio',
-			dev: true,
 		},
 	},
 
