@@ -18,7 +18,6 @@ export default defineNuxtConfig({
 		'@nuxt/hints',
 		'nuxt-studio',
 		'@nuxt/image',
-		'@vueuse/nuxt',
 		'nuxt-schema-org',
 	],
 

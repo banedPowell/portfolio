@@ -22,8 +22,6 @@
     "vue-router": "^4.6.4"
   },
   "devDependencies": {
-    "@vueuse/core": "^14.1.0",
-    "@vueuse/nuxt": "^14.1.0",
     "nuxt-schema-org": "^5.0.10",
     "prettier": "^3.7.4",
     "prettier-plugin-tailwindcss": "^0.7.2",
