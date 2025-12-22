@@ -9,17 +9,15 @@
 </script>
 
 <template>
-	<div class="flex flex-col items-center gap-20">
+	<UContainer class="flex flex-col items-center gap-20">
 		<ContentRenderer
 			v-if="header"
 			:value="header"
-			class="sticky top-0 z-50 hidden h-fit w-full max-w-5xl items-center justify-between md:flex"
+			class="sticky top-0 z-50 hidden h-fit w-full items-center justify-between md:flex"
 			mdc-unwrap="div"
 		/>
 
-		<UMain
-			class="mt-15 flex h-fit w-full max-w-[800px] flex-col items-center gap-30 p-5 md:mt-0"
-		>
+		<UMain>
 			<slot />
 		</UMain>
 
@@ -28,5 +26,5 @@
 			:value="footer"
 			class="mt-15 flex h-fit w-full flex-col items-center gap-30 p-5 md:mt-0"
 		/>
-	</div>
+	</UContainer>
 </template>

@@ -6,7 +6,7 @@
 </script>
 
 <template>
-	<section class="flex flex-col gap-5">
+	<section class="flex w-full flex-col gap-5">
 		<NuxtImg
 			v-if="logo"
 			:src="logo"

@@ -3,7 +3,7 @@ position: 4
 card:
   title: Mon vieux grimoire
   description: Une API de référencement et de notation de livres.
-  projectIcon: /projects/grimoire/grimoire.png
+  projectIcon: /projects/grimoire/logo.png
   iconAlt: Icone de Mon vieux grimoire
 description: "Découvrez mon projet Mon vieux grimoire : une API de référencement
   et de notation de livres"
@@ -19,7 +19,7 @@ seo:
 
 ::page-section
 ---
-logo: /projects/grimoire/grimoire.png
+logo: /projects/grimoire/logo.png
 logo-alt: "Logo de mon vieux grimoire : un livre avec couverture rouge"
 ---
 # Mon vieux grimoire

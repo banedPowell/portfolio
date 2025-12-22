@@ -1,4 +1,4 @@
-::page-section{class="w-full max-w-[760px]"}
+::page-section{class="w-full max-w-[800px]"}
 ## Me retrouver
 
   :::grid-list
