@@ -9,7 +9,8 @@ card:
 position: 0
 seo:
   title: banedPowell ⋅ Le sens de l'Histoire
-  description: Découvrez « Le sens de l’Histoire », un site éditorial dédié à l’analyse historique, socioculturelle et politique à travers des articles engagés et complets.
+  description: Découvrez MV Chaudronnerie, un site vitrine réalisé pour un artisan
+    chaudronnier basé en Île-de-France
 ---
 
 ::page-section

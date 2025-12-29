@@ -2,7 +2,8 @@
 position: 5
 card:
   title: Kasa
-  description: Une plateforme location d’appartements entre particuliers, développée en React. 
+  description: Une plateforme location d’appartements entre particuliers,
+    développée en React.
   projectIcon: /projects/kasa/logo.png
   iconAlt: Icone de Kasa
 seo:

@@ -2,7 +2,8 @@
 position: 1
 card:
   title: Le sens de l'Histoire
-  description: Un site éditorial accueillant des articles variés mêlant histoire, culture, société, féminisme ou encore tourisme.
+  description: Un site éditorial accueillant des articles variés mêlant histoire,
+    culture, société, féminisme ou encore tourisme.
   projectIcon: /projects/lesensdelhistoire/logo.png
   iconAlt: Icone de lesensdelhistoire.org
 seo:
