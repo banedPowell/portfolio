@@ -1,20 +1,10 @@
 ---
 title: banedPowell • Portfolio
-description: Développeur web Fullstack basé en région parisienne, spécialisé en
-  Nuxt, Vue, Typescript et Node.js. Création de sites modernes, applications
-  web, SEO, maintenance et analyse.
-seo:
-  description: Développeur web Fullstack basé en région parisienne, spécialisé en
-    Nuxt, Vue, Typescript et Node.js. Création de sites modernes, applications
-    web, SEO, maintenance et analyse.
-  title: banedPowell • Portfolio
-  image: /seo.png
-  url: https://baned.me
-  locale: fr-FR
+description: Développeur web Fullstack basé en région parisienne, spécialisé en Nuxt, Vue, Typescript et Node.js. Création de sites modernes, applications web, SEO, maintenance et analyse.
 ---
 
 ::hero{alt="Memoji de Rubén" illustration="/memoji.png"}
-# Salut ! Je suis [Rubén]{.text-red-400}
+# Salut ! Je suis [Rubén]{.text-gray-400}
 
 Développeur web Fullstack junior, passionné par `Nuxt` et l’écosystème `VueJS`.
 
@@ -27,14 +17,14 @@ Je cherche à progresser chaque jour en construisant des projets clairs, perform
 ## Mes compétences et mes outils
 
   :::flex-list
-    ::::pill-item{tech icon="logos:nuxt-icon" target="_parent"}
+    ::::pill-item{icon="logos:nuxt-icon" target="_parent" tech=""}
     Nuxt / Vue
     ::::
-  
-    ::::pill-item{tech icon="logos:nodejs-icon" target="_parent"}
+
+    ::::pill-item{icon="logos:nodejs-icon" target="_parent" tech=""}
     Node.JS
     ::::
-  
+
     ::::pill-item
     ---
     tech: true
@@ -43,16 +33,16 @@ Je cherche à progresser chaque jour en construisant des projets clairs, perform
     ---
     Typescript
     ::::
-  
-    ::::pill-item{tech icon="logos:tailwindcss-icon" target="_parent"}
+
+    ::::pill-item{icon="logos:tailwindcss-icon" target="_parent" tech=""}
     Tailwindcss
     ::::
-  
-    ::::pill-item{tech icon="devicon:figma" target="_parent"}
+
+    ::::pill-item{icon="devicon:figma" target="_parent" tech=""}
     Figma
     ::::
-  
-    ::::pill-item{tech icon="ion:logo-github" target="_parent"}
+
+    ::::pill-item{icon="ion:logo-github" target="_parent" tech=""}
     Github
     ::::
   :::
@@ -72,7 +62,7 @@ Je cherche à progresser chaque jour en construisant des projets clairs, perform
     title: Création de Sites Web
     ---
     ::::
-  
+
     ::::service-card
     ---
     accentColor: "#5795b9"
@@ -82,7 +72,7 @@ Je cherche à progresser chaque jour en construisant des projets clairs, perform
     title: Développement d'applications web
     ---
     ::::
-  
+
     ::::service-card
     ---
     accentColor: "#c98686"
@@ -92,7 +82,7 @@ Je cherche à progresser chaque jour en construisant des projets clairs, perform
     title: Optimisation SEO
     ---
     ::::
-  
+
     ::::service-card
     ---
     accentColor: "#bf7be1"
@@ -102,7 +92,7 @@ Je cherche à progresser chaque jour en construisant des projets clairs, perform
     title: Conception de maquettes
     ---
     ::::
-  
+
     ::::service-card
     ---
     accentColor: "#7be1c1"
@@ -112,7 +102,7 @@ Je cherche à progresser chaque jour en construisant des projets clairs, perform
     title: Optimisation et maintenance
     ---
     ::::
-  
+
     ::::service-card
     ---
     accentColor: "#db5f5f"
@@ -122,7 +112,7 @@ Je cherche à progresser chaque jour en construisant des projets clairs, perform
     title: Publication et déploiement
     ---
     ::::
-  
+
     ::::service-card
     ---
     accentColor: "#a5b162"
@@ -134,4 +124,3 @@ Je cherche à progresser chaque jour en construisant des projets clairs, perform
     ::::
   :::
 ::
-

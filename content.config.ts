@@ -4,7 +4,7 @@ export default defineContentConfig({
 	collections: {
 		pages: defineCollection({
 			type: 'page',
-			source: 'pages/*.md',
+			source: '*.md',
 			schema: z.object({
 				seo: z.object({
 					title: z.string(),

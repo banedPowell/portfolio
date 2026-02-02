@@ -17,16 +17,16 @@
     "@oxc-minify/binding-wasm32-wasi": "^0.105.0",
     "@oxc-parser/binding-wasm32-wasi": "^0.105.0",
     "@oxc-transform/binding-wasm32-wasi": "^0.105.0",
-    "better-sqlite3": "^12.5.0",
-    "nuxt": "^4.2.2",
-    "nuxt-studio": "^0.0.0",
+    "better-sqlite3": "^12.6.2",
+    "nuxt": "^4.3.0",
+    "nuxt-studio": "1.2.0",
     "typescript": "^5.9.3",
-    "vue": "^3.5.26",
+    "vue": "^3.5.27",
     "vue-router": "^4.6.4"
   },
   "devDependencies": {
     "nuxt-schema-org": "^5.0.10",
-    "prettier": "^3.7.4",
+    "prettier": "^3.8.1",
     "prettier-plugin-tailwindcss": "^0.7.2",
     "tailwindcss": "^4.1.18"
   }
