@@ -1,11 +1,11 @@
 ---
 title: banedPowell ⋅ Cinemotion
-description: "Découvrez mon projet Cinemotion : un client TMDB développé avec Nuxt 3."
 card:
   title: Cinemotion
   description: Un client TMDB développé avec Nuxt 3 et Scss.
   projectIcon: /projects/cinemotion/logo.png
   iconAlt: Icone de Cinemotion
+description: "Découvrez mon projet Cinemotion : un client TMDB développé avec Nuxt 3."
 position: 3
 ---
 
