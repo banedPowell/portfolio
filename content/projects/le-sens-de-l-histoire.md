@@ -38,27 +38,27 @@ Le site offre une **navigation claire** entre les **catégories** et les article
 ## Stack technique
 
   :::flex-list
-    ::::pill-item{tech icon="logos:nuxt-icon" tech=""}
+    ::::pill-item{icon="logos:nuxt-icon" tech=""}
     Nuxt 4
     ::::
 
-    ::::pill-item{tech icon="logos:nuxt-icon" tech=""}
+    ::::pill-item{icon="logos:nuxt-icon" tech=""}
     Nuxt UI
     ::::
 
-    ::::pill-item{tech icon="logos:nuxt-icon" tech=""}
+    ::::pill-item{icon="logos:nuxt-icon" tech=""}
     Nuxt content
     ::::
 
-    ::::pill-item{tech icon="logos:nuxt-icon" tech=""}
+    ::::pill-item{icon="logos:nuxt-icon" tech=""}
     Nuxt Content
     ::::
 
-    ::::pill-item{tech icon="logos:tailwindcss-icon" tech=""}
+    ::::pill-item{icon="logos:tailwindcss-icon" tech=""}
     Tailwind
     ::::
 
-    ::::pill-item{tech icon="simple-icons:posthog" tech=""}
+    ::::pill-item{icon="simple-icons:posthog" tech=""}
     Posthog
     ::::
   :::

@@ -39,19 +39,19 @@ Kasa est une plateforme fictive de *location d’appartements entre particuliers
 ## Stack technique
 
   :::flex-list
-    ::::pill-item{tech icon="material-icon-theme:react-ts" tech=""}
+    ::::pill-item{icon="material-icon-theme:react-ts" tech=""}
     React
     ::::
 
-    ::::pill-item{tech icon="logos:react-router" tech=""}
+    ::::pill-item{icon="logos:react-router" tech=""}
     React Router
     ::::
 
-    ::::pill-item{tech icon="vscode-icons:file-type-vite" tech=""}
+    ::::pill-item{icon="vscode-icons:file-type-vite" tech=""}
     Vite
     ::::
 
-    ::::pill-item{tech icon="devicon:sass" tech=""}
+    ::::pill-item{icon="devicon:sass" tech=""}
     Scss
     ::::
   :::

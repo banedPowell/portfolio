@@ -59,23 +59,23 @@ baned@example.com
 ## Stack technique
 
   :::flex-list
-    ::::pill-item{tech icon="logos:nuxt-icon" tech=""}
+    ::::pill-item{icon="logos:nuxt-icon" tech=""}
     Nuxt
     ::::
 
-    ::::pill-item{tech icon="unjs:nitro" tech=""}
+    ::::pill-item{icon="unjs:nitro" tech=""}
     Nitro
     ::::
 
-    ::::pill-item{tech icon="devicon:supabase" tech=""}
+    ::::pill-item{icon="devicon:supabase" tech=""}
     Supabase
     ::::
 
-    ::::pill-item{tech icon="devicon:sass" tech=""}
+    ::::pill-item{icon="devicon:sass" tech=""}
     Scss
     ::::
 
-    ::::pill-item{tech icon="logos:tailwindcss-icon" tech=""}
+    ::::pill-item{icon="logos:tailwindcss-icon" tech=""}
     Tailwind
     ::::
   :::
