@@ -36,7 +36,7 @@ logo-alt: Logo de Deezerstats
     ::::
   :::
 
-Cinemotion est un client [`TMDB`](https://www.themoviedb.org/) développé avec `Nuxt 3`.
+Cinemotion est un client `TMDB` développé avec `Nuxt 3`.
 
 Cette interface permet de découvrir les films et séries les plus populaires et d'accéder à des informations détaillées.
 ::
