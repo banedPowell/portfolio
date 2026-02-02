@@ -1,18 +1,12 @@
 ---
-position: 3
+title: banedPowell ⋅ Cinemotion
 card:
   title: Cinemotion
   description: Un client TMDB développé avec Nuxt 3 et Scss.
   projectIcon: /projects/cinemotion/logo.png
   iconAlt: Icone de Cinemotion
-seo:
-  locale: fr-FR
-  url: https://baned.me/projects/cinemotion
-  image: /seo.png
-  title: banedPowell ⋅ Cinemotion
-  description: "Découvrez mon projet Cinemotion : un client TMDB développé avec Nuxt 3."
 description: "Découvrez mon projet Cinemotion : un client TMDB développé avec Nuxt 3."
-title: banedPowell ⋅ Cinemotion
+position: 3
 ---
 
 ::page-section
@@ -31,7 +25,7 @@ logo-alt: Logo de Deezerstats
     ---
     Repo Github
     ::::
-  
+
     ::::pill-item
     ---
     icon: i-lucide-globe
@@ -51,19 +45,19 @@ Cette interface permet de découvrir les films et séries les plus populaires et
 ## Stack technique
 
   :::flex-list
-    ::::pill-item{tech icon="logos:nuxt-icon"}
+    ::::pill-item{tech icon="logos:nuxt-icon" tech=""}
     Nuxt 3
     ::::
-  
-    ::::pill-item{tech icon="unjs:nitro"}
+
+    ::::pill-item{tech icon="unjs:nitro" tech=""}
     Nitro
     ::::
-  
-    ::::pill-item{tech icon="devicon:sass"}
+
+    ::::pill-item{tech icon="devicon:sass" tech=""}
     Scss
     ::::
-  
-    ::::pill-item{tech icon="mdi:movie-open-outline"}
+
+    ::::pill-item{tech icon="mdi:movie-open-outline" tech=""}
     API TMDB
     ::::
   :::
