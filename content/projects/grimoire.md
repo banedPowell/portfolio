@@ -1,20 +1,12 @@
 ---
-position: 4
+title: banedPowell • Mon vieux grimoire
 card:
   title: Mon vieux grimoire
   description: Une API de référencement et de notation de livres.
   projectIcon: /projects/grimoire/logo.png
   iconAlt: Icone de Mon vieux grimoire
-description: "Découvrez mon projet Mon vieux grimoire : une API de référencement
-  et de notation de livres"
-title: banedPowell • Mon vieux grimoire
-seo:
-  title: banedPowell • Mon vieux grimoire
-  description: "Découvrez mon projet Mon vieux grimoire : une API de référencement
-    et de notation de livres"
-  image: /seo.png
-  url: https://baned.me/projects/grimoire
-  locale: fr-FR
+description: "Découvrez mon projet Mon vieux grimoire : une API de référencement et de notation de livres"
+position: 4
 ---
 
 ::page-section
@@ -33,7 +25,7 @@ logo-alt: "Logo de mon vieux grimoire : un livre avec couverture rouge"
     ---
     Repo Github
     ::::
-  
+
     ::::pill-item
     ---
     icon: simple-icons:github
@@ -56,7 +48,7 @@ Il s'agit là du projet *OpenClassrooms* que j'ai trouvé le plus stimulant et l
     ::::pill-item{icon="simple-icons:express"}
     ExpressJS
     ::::
-  
+
     ::::pill-item{icon="simple-icons:mongodb"}
     MongoDB
     ::::

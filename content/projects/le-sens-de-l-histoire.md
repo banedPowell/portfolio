@@ -1,23 +1,12 @@
 ---
-position: 1
+title: banedPowell ⋅ Le sens de l'Histoire
 card:
   title: Le sens de l'Histoire
-  description: Un site éditorial accueillant des articles variés mêlant histoire,
-    culture, société, féminisme ou encore tourisme.
+  description: Un site éditorial accueillant des articles variés mêlant histoire, culture, société, féminisme ou encore tourisme.
   projectIcon: /projects/lesensdelhistoire/logo.png
   iconAlt: Icone de lesensdelhistoire.org
-seo:
-  locale: fr-FR
-  url: https://baned.me/projects/lesensdelhistoire
-  image: /seo.png
-  title: banedPowell ⋅ Le sens de l'Histoire
-  description: Découvrez « Le sens de l’Histoire », un site éditorial dédié à
-    l’analyse historique, socioculturelle et politique à travers des articles
-    engagés et complets.
-title: banedPowell ⋅ Le sens de l'Histoire
-description: Découvrez « Le sens de l’Histoire », un site éditorial dédié à
-  l’analyse historique, socioculturelle et politique à travers des articles
-  engagés et complets.
+description: Découvrez « Le sens de l’Histoire », un site éditorial dédié à l’analyse historique, socioculturelle et politique à travers des articles engagés et complets.
+position: 1
 ---
 
 ::page-section
@@ -49,27 +38,27 @@ Le site offre une **navigation claire** entre les **catégories** et les article
 ## Stack technique
 
   :::flex-list
-    ::::pill-item{tech icon="logos:nuxt-icon"}
+    ::::pill-item{tech icon="logos:nuxt-icon" tech=""}
     Nuxt 4
     ::::
-  
-    ::::pill-item{tech icon="logos:nuxt-icon"}
+
+    ::::pill-item{tech icon="logos:nuxt-icon" tech=""}
     Nuxt UI
     ::::
-  
-    ::::pill-item{tech icon="logos:nuxt-icon"}
+
+    ::::pill-item{tech icon="logos:nuxt-icon" tech=""}
     Nuxt content
     ::::
-  
-    ::::pill-item{tech icon="logos:nuxt-icon"}
+
+    ::::pill-item{tech icon="logos:nuxt-icon" tech=""}
     Nuxt Content
     ::::
-  
-    ::::pill-item{tech icon="logos:tailwindcss-icon"}
+
+    ::::pill-item{tech icon="logos:tailwindcss-icon" tech=""}
     Tailwind
     ::::
-  
-    ::::pill-item{tech icon="simple-icons:posthog"}
+
+    ::::pill-item{tech icon="simple-icons:posthog" tech=""}
     Posthog
     ::::
   :::

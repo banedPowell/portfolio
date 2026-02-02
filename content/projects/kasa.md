@@ -1,21 +1,12 @@
 ---
-position: 5
+title: banedPowell ⋅ Kasa
 card:
   title: Kasa
-  description: Une plateforme location d’appartements entre particuliers,
-    développée en React.
+  description: Une plateforme location d’appartements entre particuliers, développée en React.
   projectIcon: /projects/kasa/logo.png
   iconAlt: Icone de Kasa
-seo:
-  locale: fr-FR
-  url: https://baned.me/projects/kasa
-  image: /seo.png
-  title: banedPowell ⋅ Kasa
-  description: "Découvrez mon projet Kasa : une interface de réservation de
-    chambres développée en React"
-description: "Découvrez mon projet Kasa : une interface de réservation de
-  chambres développée en React"
-title: banedPowell ⋅ Kasa
+description: "Découvrez mon projet Kasa : une interface de réservation de chambres développée en React"
+position: 5
 ---
 
 ::page-section{logo="/projects/kasa/logo.png" logo-alt="Logo de Deezerstats"}
@@ -30,7 +21,7 @@ title: banedPowell ⋅ Kasa
     ---
     Repo Github
     ::::
-  
+
     ::::pill-item
     ---
     icon: i-lucide-globe
@@ -48,19 +39,19 @@ Kasa est une plateforme fictive de *location d’appartements entre particuliers
 ## Stack technique
 
   :::flex-list
-    ::::pill-item{tech icon="material-icon-theme:react-ts"}
+    ::::pill-item{tech icon="material-icon-theme:react-ts" tech=""}
     React
     ::::
-  
-    ::::pill-item{tech icon="logos:react-router"}
+
+    ::::pill-item{tech icon="logos:react-router" tech=""}
     React Router
     ::::
-  
-    ::::pill-item{tech icon="vscode-icons:file-type-vite"}
+
+    ::::pill-item{tech icon="vscode-icons:file-type-vite" tech=""}
     Vite
     ::::
-  
-    ::::pill-item{tech icon="devicon:sass"}
+
+    ::::pill-item{tech icon="devicon:sass" tech=""}
     Scss
     ::::
   :::

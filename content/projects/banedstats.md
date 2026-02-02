@@ -1,20 +1,12 @@
 ---
-position: 2
+title: banedPowell ⋅ Deezerstats
 card:
   title: banedStats
   description: Une application pour analyser les statistaiques d'écoutes deezer.
   projectIcon: /projects/banedstats/logo.png
   iconAlt: Icone de banedStats
-seo:
-  locale: fr-FR
-  url: https://baned.me/projects/deezerstats
-  image: /seo.png
-  title: banedPowell ⋅ Deezerstats
-  description: "Découvrez mon projet Deezerstats : une application d'analyse de
-    votre compte Deezer pour en extraire des statistiques détaillées."
-description: "Découvrez mon projet Deezerstats : une application d'analyse de
-  votre compte Deezer pour en extraire des statistiques détaillées."
-title: banedPowell ⋅ Deezerstats
+description: "Découvrez mon projet Deezerstats : une application d'analyse de votre compte Deezer pour en extraire des statistiques détaillées."
+position: 2
 ---
 
 ::page-section
@@ -33,7 +25,7 @@ logo-alt: Logo de Deezerstats
     ---
     Repo Github
     ::::
-  
+
     ::::pill-item
     ---
     icon: i-lucide-globe
@@ -67,23 +59,23 @@ baned@example.com
 ## Stack technique
 
   :::flex-list
-    ::::pill-item{tech icon="logos:nuxt-icon"}
+    ::::pill-item{tech icon="logos:nuxt-icon" tech=""}
     Nuxt
     ::::
-  
-    ::::pill-item{tech icon="unjs:nitro"}
+
+    ::::pill-item{tech icon="unjs:nitro" tech=""}
     Nitro
     ::::
-  
-    ::::pill-item{tech icon="devicon:supabase"}
+
+    ::::pill-item{tech icon="devicon:supabase" tech=""}
     Supabase
     ::::
-  
-    ::::pill-item{tech icon="devicon:sass"}
+
+    ::::pill-item{tech icon="devicon:sass" tech=""}
     Scss
     ::::
-  
-    ::::pill-item{tech icon="logos:tailwindcss-icon"}
+
+    ::::pill-item{tech icon="logos:tailwindcss-icon" tech=""}
     Tailwind
     ::::
   :::

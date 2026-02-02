@@ -1,16 +1,15 @@
 ---
 title: banedPowell ⋅ MV Chaudronnerie
-description: Découvrez mon projet "MV Chaudronnerie"
 card:
   title: MV Chaudronnerie
   description: Site vitrine réalisé pour un chaudronnier basé en Île-de-France
   projectIcon: /projects/mvchaudronnerie/logo.png
   iconAlt: Logo de mvchaudronnerie.com
+description: Découvrez mon projet "MV Chaudronnerie"
 position: 0
 seo:
   title: banedPowell ⋅ Le sens de l'Histoire
-  description: Découvrez MV Chaudronnerie, un site vitrine réalisé pour un artisan
-    chaudronnier basé en Île-de-France
+  description: Découvrez MV Chaudronnerie, un site vitrine réalisé pour un artisan chaudronnier basé en Île-de-France
 ---
 
 ::page-section
@@ -43,19 +42,19 @@ Après un premier échange pour comprendre l’activité, les **besoins métiers
     ::::pill-item{icon="logos:nuxt-icon" tech=""}
     Nuxt 4
     ::::
-  
+
     ::::pill-item{icon="logos:nuxt-icon" tech=""}
     Nuxt UI
     ::::
-  
+
     ::::pill-item{icon="logos:tailwindcss-icon" tech=""}
     Tailwind
     ::::
-  
+
     ::::pill-item{icon="tabler:brand-threejs" tech=""}
     Tres.JS
     ::::
-  
+
     ::::pill-item{icon="simple-icons:resend" tech=""}
     Resend
     ::::
