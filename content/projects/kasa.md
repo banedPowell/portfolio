@@ -58,7 +58,7 @@ Kasa est une plateforme fictive de *location d’appartements entre particuliers
 
 Il m’a permis de me familiariser avec `React` et l’écosystème associé : `React Router`, composants réutilisables, syntaxe, etc.
 
-Cependant, j'ai choisi d'utiliser [`Vite`](https://vite.dev/) un outil que je connaissais déjà grâce à mon expérience avec VueJS, pour faciliter la configuration et le développement du projet.
+Cependant, j'ai choisi d'utiliser `Vite` un outil que je connaissais déjà grâce à mon expérience avec VueJS, pour faciliter la configuration et le développement du projet.
 ::
 
 ::page-section
