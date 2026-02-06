@@ -1,11 +1,11 @@
 ---
 title: banedPowell • Mon vieux grimoire
+description: "Découvrez mon projet Mon vieux grimoire : une API de référencement et de notation de livres"
 card:
   title: Mon vieux grimoire
   description: Une API de référencement et de notation de livres.
   projectIcon: /projects/grimoire/logo.png
   iconAlt: Icone de Mon vieux grimoire
-description: "Découvrez mon projet Mon vieux grimoire : une API de référencement et de notation de livres"
 position: 4
 ---
 
@@ -57,22 +57,4 @@ Il s'agit là du projet *OpenClassrooms* que j'ai trouvé le plus stimulant et l
 Ce projet m’a permis de relever plusieurs défis techniques, tels que l’intégration sécurisée de `JWT` pour l’*authentification*, l’optimisation des images avec Multer et Sharp, et la gestion efficace des données avec `MongoDB` et `Mongoose`.
 
 J’ai également renforcé mes compétences en conception d’*API RESTful* robustes et évolutives
-::
-
-::page-section
-## Illustrations
-
-  :::project-illustrations-list
-  ---
-  firstIllustration: /projects/grimoire/home.jpeg
-  firstIllustrationAlt: Page d'accueil de Mon vieux grimoire
-  firstIllustrationTitle: Accueil
-  secondIllustration: /projects/grimoire/login.jpeg
-  secondIllustrationAlt: Page de connexion et inscription de Mon vieux grimoire
-  secondIllustrationTitle: Connexion
-  thirdIllustration: /projects/grimoire/book-details.jpeg
-  thirdIllustrationAlt: Page de détails d'un livre de Mon vieux grimoire
-  thirdIllustrationTitle: Détails
-  ---
-  :::
 ::
