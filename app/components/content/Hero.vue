@@ -6,7 +6,7 @@
 </script>
 
 <template>
-	<section class="flex flex-row justify-between">
+	<section class="mt-20 flex flex-row justify-between md:mt-0">
 		<div class="flex w-full max-w-[500px] flex-col">
 			<slot />
 		</div>
