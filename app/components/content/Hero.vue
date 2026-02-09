@@ -14,18 +14,16 @@
 		<NuxtImg
 			:src="props.illustration"
 			:alt="props.alt"
-			class="illustration hidden aspect-square size-45 rounded-full md:block"
+			class="illustration hidden aspect-square size-65 rotate-6 rounded-full hover:scale-105 hover:-rotate-2 md:block"
 		/>
 	</section>
 </template>
 
 <style lang="css" scoped>
 	.illustration {
-		transform: rotate(5deg);
 		transition: all 0.15s cubic-bezier(0.85, 0.85, 0, 1.57);
 
 		&:hover {
-			transform: rotate(-2deg) scale(1.05);
 			transition: all 0.3s cubic-bezier(0.82, -1.27, 0, 1.57);
 		}
 	}

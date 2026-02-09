@@ -17,32 +17,52 @@ Je cherche à progresser chaque jour en construisant des projets clairs, perform
 ## Mes compétences et mes outils
 
   :::flex-list
-    ::::pill-item{tech icon="logos:nuxt-icon" target="_parent"}
+    ::::pill-item
+    ---
+    tech: ""
+    icon: simple-icons:nuxt
+    target: _parent
+    ---
     Nuxt / Vue
-    ::::
-
-    ::::pill-item{tech icon="logos:nodejs-icon" target="_parent"}
-    Node.JS
     ::::
 
     ::::pill-item
     ---
-    tech: true
-    icon: vscode-icons:file-type-typescript-official
+    tech: ""
+    icon: akar-icons:node-fill
     target: _parent
     ---
+    Node.JS
+    ::::
+
+    ::::pill-item{tech icon="lineicons:typescript" target="_parent"}
     Typescript
     ::::
 
-    ::::pill-item{tech icon="logos:tailwindcss-icon" target="_parent"}
+    ::::pill-item
+    ---
+    tech: ""
+    icon: simple-icons:tailwindcss
+    target: _parent
+    ---
     Tailwindcss
     ::::
 
-    ::::pill-item{tech icon="devicon:figma" target="_parent"}
+    ::::pill-item
+    ---
+    tech: ""
+    icon: gg:figma
+    target: _parent
+    ---
     Figma
     ::::
 
-    ::::pill-item{tech icon="ion:logo-github" target="_parent"}
+    ::::pill-item
+    ---
+    tech: ""
+    icon: simple-icons:github
+    target: _parent
+    ---
     Github
     ::::
   :::
@@ -85,7 +105,7 @@ Je cherche à progresser chaque jour en construisant des projets clairs, perform
 
     ::::service-card
     ---
-    accentColor: "#bf7be1"
+    accentColor: "#bf9be1"
     description: Visualisez votre projet avant le développement avec des maquettes
       interactives qui guident la création de votre site.
     icon: lucide:palette
@@ -105,7 +125,7 @@ Je cherche à progresser chaque jour en construisant des projets clairs, perform
 
     ::::service-card
     ---
-    accentColor: "#db5f5f"
+    accentColor: "#e78484"
     description: Mettez votre site en ligne de manière professionnelle et sécurisée,
       prêt à accueillir vos visiteurs.
     icon: lucide:rocket
@@ -115,7 +135,7 @@ Je cherche à progresser chaque jour en construisant des projets clairs, perform
 
     ::::service-card
     ---
-    accentColor: "#a5b162"
+    accentColor: "#d0da97"
     description: Comprenez le comportement de vos visiteurs avec des outils
       d'analyse détaillés pour prendre des décisions éclairées.
     icon: lucide:bar-chart
