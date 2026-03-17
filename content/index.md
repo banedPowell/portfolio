@@ -17,52 +17,32 @@ Je cherche à progresser chaque jour en construisant des projets clairs, perform
 ## Mes compétences et mes outils
 
   :::flex-list
-    ::::pill-item
-    ---
-    tech: ""
-    icon: simple-icons:nuxt
-    target: _parent
-    ---
+    ::::pill-item{icon="simple-icons:nuxt" target="_parent" tech=""}
     Nuxt / Vue
     ::::
 
-    ::::pill-item
-    ---
-    tech: ""
-    icon: akar-icons:node-fill
-    target: _parent
-    ---
+    ::::pill-item{icon="akar-icons:node-fill" target="_parent" tech=""}
     Node.JS
     ::::
 
-    ::::pill-item{tech icon="lineicons:typescript" target="_parent"}
+    ::::pill-item
+    ---
+    tech: ""
+    icon: lineicons:typescript
+    target: _parent
+    ---
     Typescript
     ::::
 
-    ::::pill-item
-    ---
-    tech: ""
-    icon: simple-icons:tailwindcss
-    target: _parent
-    ---
+    ::::pill-item{icon="simple-icons:tailwindcss" target="_parent" tech=""}
     Tailwindcss
     ::::
 
-    ::::pill-item
-    ---
-    tech: ""
-    icon: gg:figma
-    target: _parent
-    ---
+    ::::pill-item{icon="gg:figma" target="_parent" tech=""}
     Figma
     ::::
 
-    ::::pill-item
-    ---
-    tech: ""
-    icon: simple-icons:github
-    target: _parent
-    ---
+    ::::pill-item{icon="simple-icons:github" target="_parent" tech=""}
     Github
     ::::
   :::
