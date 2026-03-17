@@ -25,12 +25,7 @@ Je cherche à progresser chaque jour en construisant des projets clairs, perform
     Node.JS
     ::::
 
-    ::::pill-item
-    ---
-    tech: ""
-    icon: lineicons:typescript
-    target: _parent
-    ---
+    ::::pill-item{icon="lineicons:typescript" target="_parent" tech=""}
     Typescript
     ::::
 
