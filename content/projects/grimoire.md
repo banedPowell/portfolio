@@ -1,11 +1,11 @@
 ---
 title: banedPowell • Mon vieux grimoire
-description: "Découvrez mon projet Mon vieux grimoire : une API de référencement et de notation de livres"
 card:
   title: Mon vieux grimoire
   description: Une API de référencement et de notation de livres.
   projectIcon: /projects/grimoire/logo.png
   iconAlt: Icone de Mon vieux grimoire
+description: "Découvrez mon projet Mon vieux grimoire : une API de référencement et de notation de livres"
 position: 4
 ---
 
